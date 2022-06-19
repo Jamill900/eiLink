@@ -1,0 +1,41 @@
+main {
+
+    >div {
+        height: 74vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+
+        h1 {
+            font-size: 4em;
+            text-transform: uppercase;
+        }
+
+        p {
+            max-width: 700px;
+            padding-bottom: 15px;
+        }
+
+        button {
+            background: none;
+            border: none;
+            outline: none;
+            color: #fff;
+            padding: 15px 25px;
+            border: 1px solid #fff;
+        }
+
+        button:hover {
+            color: #282828;
+            background: #fff;
+            transition-duration: 600ms;
+        }
+    }
+}
+
+#team {
+    background: #fff;
+    padding: 75px;
+}

@@ -1,0 +1,29 @@
+.about-layout {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #fff;
+    z-index: 2;
+
+    >div {
+        width: 100%;
+
+        * {
+            color: #282828;
+        }
+    }
+
+    #left, #right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background: #fff;
+        padding: 150px;
+        h1 {
+            font-size: 4em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+}

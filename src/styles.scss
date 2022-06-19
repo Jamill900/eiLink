@@ -1,1 +1,95 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ffffff;
+    z-index: 1;
+}
+
+body {
+    background: #282828;
+    color: #fff;
+}
+
+video {
+    z-index: -1 !important;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    filter: brightness(65%);
+}
+
+/* About Us */
+
+#left-img {
+    background-image: url(assets/images/vision.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#right-img {
+    background-image: url(assets/images/about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Research Grid */
+
+#geology {
+    background: url(assets/images/geology.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#oilandgas {
+    background: url(assets/images/oil_gas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#drilling {
+    background: url(assets/images/drilling.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#digitalrocks {
+    background: url(assets/images/digital_rocks.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#thermodynamics {
+    background: url(assets/images/thermodynamics.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#reservoir {
+    background: url(assets/images/reservoir.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#software {
+    background: url(assets/images/software.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#datascience {
+    background: url(assets/images/data_science.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#machinelearning {
+    background: url(assets/images/machine_learning.jpg);
+    background-position: center;
+    background-size: cover;
+}
