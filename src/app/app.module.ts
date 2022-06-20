@@ -15,10 +15,14 @@ import { ContactComponent } from './contact/contact.component';
 import { PreloaderComponent } from './preloader/preloader.component';
 import { TeamComponent } from './team/team.component';
 import { TeamDetailsComponent } from './team-details/team-details.component';
+import { CareersComponent } from './careers/careers.component';
+import { SponsorsComponent } from './sponsors/sponsors.component';
+import { VideoComponent } from './video/video.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
-import { CareersComponent } from './careers/careers.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { WorksComponent } from './works/works.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +39,16 @@ import { CareersComponent } from './careers/careers.component';
     PreloaderComponent,
     TeamComponent,
     TeamDetailsComponent,
-    CareersComponent
+    CareersComponent,
+    SponsorsComponent,
+    VideoComponent,
+    WorksComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy}],
   bootstrap: [AppComponent]

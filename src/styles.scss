@@ -2,16 +2,14 @@
 
 * {
     font-family: 'Montserrat', sans-serif !important;
-    color: #ffffff;
     z-index: 1;
 }
 
 body {
     background: #282828;
-    color: #fff;
 }
 
-video {
+#bgvid {
     z-index: -1 !important;
     object-fit: cover;
     width: 100vw;
@@ -25,6 +23,10 @@ video {
     h1 {
         font-size: 2.5em !important;
     }
+}
+
+fa-icon > svg > path {
+    color: #282828 !important;
 }
 
 /* About Us */
@@ -68,56 +70,56 @@ video {
 /* Research Grid */
 
 #geology {
-    background: url(assets/images/geology.jpg);
+    background: url(assets/images/research/geology.jpg);
     background-position: center;
     background-size: contain;
 }
 
 #oilandgas {
-    background: url(assets/images/oil_gas.jpg);
+    background: url(assets/images/research/oil_gas.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #drilling {
-    background: url(assets/images/drilling.webp);
+    background: url(assets/images/research/drilling.webp);
     background-position: center;
     background-size: cover;
 }
 
 #digitalrocks {
     background: #282828;
-    background: url(assets/images/digital_rocks.png);
+    background: url(assets/images/research/digital_rocks.png);
     background-position: center;
     background-size: cover;
 }
 
 #thermodynamics {
-    background: url(assets/images/thermodynamics.jpeg);
+    background: url(assets/images/research/thermodynamics.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 #reservoir {
-    background: url(assets/images/reservoir.jpeg);
+    background: url(assets/images/research/reservoir.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 #software {
-    background: url(assets/images/software.jpg);
+    background: url(assets/images/research/software.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #datascience {
-    background: url(assets/images/data_science.jpg);
+    background: url(assets/images/research/data_science.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #machinelearning {
-    background: url(assets/images/machine_learning.jpg);
+    background: url(assets/images/research/machine_learning.jpg);
     background-position: center;
     background-size: cover;
 }
