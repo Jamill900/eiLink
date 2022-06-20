@@ -19,7 +19,12 @@ video {
     position: fixed !important;
     top: 0;
     left: 0;
-    filter: brightness(65%);
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 2.5em !important;
+    }
 }
 
 /* About Us */
@@ -35,6 +40,28 @@ video {
     background-image: url(assets/images/about.jpg);
     background-position: center;
     background-size: cover;
+}
+
+@media screen and (max-width: 1400px) {
+    #left {
+        background-image: url(assets/images/about-dark.png) !important;
+        background-position: center !important;
+        background-size: cover !important;
+
+        * {
+            color: #fff !important;
+        }
+    }
+
+    #right {
+        background-image: url(assets/images/vision-dark.png) !important;
+        background-position: center !important;
+        background-size: cover !important;
+
+        * {
+            color: #fff !important;
+        }
+    }
 }
 
 
@@ -59,6 +86,7 @@ video {
 }
 
 #digitalrocks {
+    background: #282828;
     background: url(assets/images/digital_rocks.png);
     background-position: center;
     background-size: cover;

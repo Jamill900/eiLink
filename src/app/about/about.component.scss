@@ -1,7 +1,6 @@
 .about-layout {
     display: grid;
     grid-template-columns: auto auto;
-    background: #fff;
     z-index: 2;
 
     >div {
@@ -26,4 +25,18 @@
         }
     }
 
+}
+
+@media screen and (max-width: 1400px){
+    #left-img, #right-img {
+        display: none;
+    }
+
+    #left, #right {
+        padding: 50px !important;
+    }
+
+    .about-layout {
+        grid-template-columns: auto;
+    }
 }
