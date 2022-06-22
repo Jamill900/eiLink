@@ -1,7 +1,6 @@
 .about-layout {
     display: grid;
     grid-template-columns: auto auto;
-    z-index: 2;
 
     >div {
         width: 100%;
@@ -11,28 +10,38 @@
         }
     }
 
-    #left, #right {
+    #left,
+    #right {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
         background: #fff;
         padding: 150px;
+
         h1 {
             font-size: 4em;
-            font-weight: 600;
+            font-weight: 500;
             text-transform: uppercase;
+            color: var(--blue);
         }
     }
 
 }
 
-@media screen and (max-width: 1400px){
-    #left-img, #right-img {
+@media screen and (max-width: 1400px) {
+
+    #left-img,
+    #right-img {
         display: none;
     }
 
-    #left, #right {
+    .mobile {
+        display: none;
+    }
+
+    #left,
+    #right {
         padding: 50px !important;
     }
 

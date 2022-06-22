@@ -1,7 +1,6 @@
 .works {
     z-index: 25 !important;
-    padding: 75px;
-    height: 80vh;
+    padding: 75px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,10 +12,55 @@
 
     h1 {
         text-transform: uppercase;
+        color: var(--white);
+    }
+
+    >p {
+        max-width: 800px;
+        padding-bottom: 40px;
+    }
+}
+
+.info-card {
+    text-align: left;
+    background: var(--white);
+
+    h3 {
+        color: var(--blue) !important;
     }
 
     p {
-        max-width: 800px;
-        padding-bottom: 40px;
+        color: var(--dark) !important;
+    }
+
+    button {
+        background: none;
+        border: none;
+        outline: none;
+        color: var(--blue);
+        padding: 10px 20px;
+        border: 2px solid var(--blue);
+    }
+
+    button:hover {
+        color: var(--white) !important;
+        background: var(--blue);
+        transition-duration: 600ms;
+    }
+}
+
+.outter {
+    padding: 1rem;
+    background: linear-gradient(45deg, #F58C83, #ED7186, #194E82, #525383);
+    padding: 3px;
+}
+
+.inner {
+    padding: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+    .works {
+        padding: 75px 20px;
     }
 }

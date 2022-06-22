@@ -1,29 +1,37 @@
 <main id="main">
     <div class="container">
-        <h1>Education & Industry</h1>
+        <h1 class="gradient">Education & Industry</h1>
         <p>Welcome to eiLink Research and Development Center, where education links with industry for the common goal of
             finding practical, smart, and innovative solutions to complex technical problems.</p>
-            <button (click)="scrollToElement(about)">Browse More</button>
+        <button (click)="scrollToElement(about)">Browse More</button>
     </div>
 </main>
+<div class="section-break"></div>
 <section #about id="about">
     <app-about></app-about>
 </section>
+<div class="section-break"></div>
 <section id="research">
     <app-research></app-research>
 </section>
+<div class="section-break"></div>
 <section id="team">
     <app-team></app-team>
 </section>
+<div class="section-break"></div>
 <section id="works">
     <app-works></app-works>
 </section>
+<div class="section-break"></div>
 <section id="clients">
     <app-sponsors></app-sponsors>
 </section>
+<div class="section-break"></div>
 <section id="video">
-    <app-video></app-video>
+    <video autoplay [muted]="true" loop src="assets/images/thinkthank.mp4" width="100%" height="auto"></video>
 </section>
+<div class="section-break"></div>
 <section id="contact">
     <app-contact></app-contact>
 </section>
+<div class="section-break"></div>

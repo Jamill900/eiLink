@@ -1,6 +1,6 @@
 .research {
     z-index: 25 !important;
-    padding: 75px;
+    padding: 75px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,7 @@
 
     h1 {
         text-transform: uppercase;
+        color: var(--white);
     }
 
     p {
@@ -26,109 +27,119 @@
 
 /* Grid */
 
-.main-title{
-  color: #2d2d2d;
-  text-align: center;
-  text-transform: capitalize;
-  padding: 0.7em 0;
+.main-title {
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 0;
 }
 
-.container-research{
-  float: left;
-  width: 50%;
+.container-research {
+    float: left;
+    width: 50%;
 }
 
-@media screen and (max-width: 1040px){
-    .container-research{
-    display: block;
-    width: 100%;
-  }
+@media screen and (max-width: 1040px) {
+    .container-research {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .content .content-overlay, .content-details {
+        opacity: 1 !important;
+    }
+
+    .fadeIn-bottom {
+        top: 50% !important;
+    }
+
 }
 
-@media screen and (min-width: 1400px){
-  .container-research{
-    width: 33.33333%;
-  }
+@media screen and (min-width: 1400px) {
+    .container-research {
+        width: 33.33333%;
+    }
 }
 
-.container-research .title{
-  color: #1a1a1a;
-  text-align: center;
-  margin-bottom: 10px;
+.container-research .title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .content {
-  position: relative;
-  min-width: 390px;
-  min-height: 390px;
-  margin: auto;
-  overflow: hidden;
+    position: relative;
+    min-width: 390px;
+    min-height: 390px;
+    margin: auto;
+    overflow: hidden;
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
-  opacity: 1;
+.content:hover .content-overlay {
+    opacity: 1;
 }
 
-.content-image{
-  width: 100%;
+.content-image {
+    width: 100%;
 }
 
 .content-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
-  top: 50%;
-  left: 50%;
-  opacity: 1;
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
 }
 
-.content-details h3{
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
-.content-details p{
-  color: #fff;
-  font-size: 0.9em;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  //text-align: justify;
+.content-details p {
+    color: #fff;
+    font-size: 0.9em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    //text-align: justify;
 }
 
-.fadeIn-bottom{
-  top: 100%;
+.fadeIn-bottom {
+    top: 100%;
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'assets/scss/colors.scss';
 
 * {
     font-family: 'Montserrat', sans-serif !important;
@@ -6,7 +7,7 @@
 }
 
 body {
-    background: #282828;
+    background: var(--dark);
 }
 
 #bgvid {
@@ -25,8 +26,12 @@ body {
     }
 }
 
-fa-icon > svg > path {
-    color: #282828 !important;
+
+.gradient {
+    background: -webkit-linear-gradient(45deg, #F58C83, #ED7186, #194E82, #525383);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* About Us */
@@ -45,15 +50,6 @@ fa-icon > svg > path {
 }
 
 @media screen and (max-width: 1400px) {
-    #left {
-        background-image: url(assets/images/about-dark.png) !important;
-        background-position: center !important;
-        background-size: cover !important;
-
-        * {
-            color: #fff !important;
-        }
-    }
 
     #right {
         background-image: url(assets/images/vision-dark.png) !important;
@@ -88,7 +84,7 @@ fa-icon > svg > path {
 }
 
 #digitalrocks {
-    background: #282828;
+    background: var(--dark);
     background: url(assets/images/research/digital_rocks.png);
     background-position: center;
     background-size: cover;

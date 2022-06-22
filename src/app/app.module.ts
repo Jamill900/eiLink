@@ -17,7 +17,6 @@ import { TeamComponent } from './team/team.component';
 import { TeamDetailsComponent } from './team-details/team-details.component';
 import { CareersComponent } from './careers/careers.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
-import { VideoComponent } from './video/video.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
@@ -41,7 +40,6 @@ import { WorksComponent } from './works/works.component';
     TeamDetailsComponent,
     CareersComponent,
     SponsorsComponent,
-    VideoComponent,
     WorksComponent
   ],
   imports: [
