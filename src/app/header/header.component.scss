@@ -33,7 +33,7 @@
 .nav-item>.nav-link:hover::after,
 .nav-item>.nav-link.active::after {
     width: 100%;
-    background: var(--white);
+    background: linear-gradient(45deg, #F58C83, #ED7186, #194E82, #525383);
 }
 
 .nav-link.active {
@@ -43,4 +43,14 @@
 nav {
     background: rgba(0, 0, 0, 0.7) !important;
     backdrop-filter: blur(12px) !important;
+}
+
+@media (max-width: 991px) {
+
+    .nav-item {
+        text-align: center;
+    }
+    .navbar-nav {
+        margin: auto;
+    }
 }
