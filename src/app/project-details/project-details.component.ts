@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Project } from '../interfaces/project';
+import { DatabaseService } from '../services/database.service';
 
 @Component({
   selector: 'app-project-details',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectDetailsComponent implements OnInit {
 
-  constructor() { }
+  project: Project;
+
+  constructor(
+    private database: DatabaseService,
+    private router: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.getProjectById();
+  }
+
+  getProjectById(): void {
+    const id = Number(this.router.snapshot.paramMap.get('id'));
+    this.database.getProjectById(id).subscribe(project => this.project = project);
   }
 
 }

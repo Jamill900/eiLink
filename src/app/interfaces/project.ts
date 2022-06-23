@@ -1,6 +1,7 @@
-export interface Projects {
+export interface Project {
     id: number;
     author: string;
+    cover: string;
     date: string;
     title: string;
     description: string;

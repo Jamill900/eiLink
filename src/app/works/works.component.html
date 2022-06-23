@@ -1,24 +1,38 @@
 <div class="works">
-    <h1>Works</h1>
-    <p>We share our projects and publications with you</p>
-    <div class="container-sm">
+    <h1>Latest Projects</h1>
+    <p>All projects address customer’s emerging technical and technological issues that have direct and tangible link to
+        their business. </p>
+    <div class="container">
         <div class="row">
-            <div class="col-md-5 col-12 mt-3 mb-3 m-auto outter">
-                <div class="inner info-card">
-                    <h3 id="public">PROJECTS</h3>
-                    <p>Occaecat sint nulla est cupidatat exercitation nulla dolor dolor pariatur velit magna ullamco minim
-                        proident anim do reprehenderit ipsum mollit.</p>
-                    <button>Learn More</button>
+            <div class="post col-lg-4 col-12" *ngFor="let project of projects | paginate: {itemsPerPage: 3, currentPage: 1}">
+                <div class="header_post">
+                    <img src="{{ project.cover }}"
+                        height="300px" width="100%" alt="">
                 </div>
-            </div>
-            <div class="col-md-5 col-12 mt-3 mb-3 m-auto outter">
-                <div class="inner info-card">
-                    <h3 id="public">PUBLICATIONS</h3>
-                    <p>Occaecat sint nulla est cupidatat exercitation nulla dolor dolor pariatur velit magna ullamco minim
-                        proident anim do reprehenderit ipsum mollit.</p>
-                    <button>Learn More</button>
+                <div class="body_post">
+                    <div class="post_content">
+                        <h1 routerLink="/projects/{{ project.id }}">{{ project.title }}</h1>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi assumenda cumque
+                            deserunt
+                            dolorum ex exercitationem.</p> -->
+                        <div class="container_infos">
+                            <div class="postedBy">
+                                <span>author</span>
+                                {{ project.author }}
+                            </div>
+                            <div class="container_tags">
+                                <span>date</span>
+                                <div class="tags">
+                                    <ul>
+                                        <li>{{ project.date }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <button routerLink="/projects">View All Projects</button>
 </div>
