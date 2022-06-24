@@ -1,25 +1,17 @@
-<div class="container">
-
-    <div class="row heading">
-        <div class="col-12 ">
-            <h1 class="text-center">OUR EXPERTS</h1>
-            <p class="subheading text-center" style="color: #282828; 
-            padding-bottom: 40px;">Let's meet with our team members</p>
-        </div>
-    </div>
-
-    <div class="container team">
-        <div class="research-grid row">
-            <div class="container-research col-lg-4 col-md-6 col-12 mt-3 mb-3" *ngFor="let members of team | paginate: {itemsPerPage: 3, currentPage: 1}">
-                <div class="content" style="background: url('{{ members.cover }}'); background-position: center; background-size: cover;">
-                    <div class="content-overlay"></div>
-                    <div class="content-details fadeIn-bottom">
-                        <p class="content-text">{{ members.info }}</p>
-                    </div>
+<div class="team">
+    <h1>Our Experts</h1>
+    <p>et's meet with our team members</p>
+    <div class="team-grid">
+        <div class="container-research" *ngFor="let members of team | paginate: {itemsPerPage: 3, currentPage: 1}">
+            <div class="content"
+                style="background: url('{{ members.cover }}'); background-position: center; background-size: cover;">
+                <div class="content-overlay"></div>
+                <div class="content-details fadeIn-bottom">
+                    <p>{{ members.info }}</p>
                 </div>
-                <h4>{{ members.name }}</h4>
-                <h6>{{ members.position }}</h6>
             </div>
+            <h4>{{ members.name }}</h4>
+            <h6>{{ members.position }}</h6>
         </div>
     </div>
 

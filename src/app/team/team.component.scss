@@ -1,27 +1,47 @@
-*:not(p) {
-    color: #282828 !important;
-}
-
-h1 {
-    color: var(--blue) !important;
-}
-
-
 .team {
-    padding-bottom: 40px;
-}
+    z-index: 25 !important;
+    padding: 75px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    h1 {
+        text-transform: uppercase;
+        color: var(--blue);
+    }
+
+    p {
+        max-width: 800px;
+        padding-bottom: 40px;
+    }
+}
 h4 {
     padding: 20px 0 0 10px;
 }
 
 h6 {
     text-transform: uppercase;
-    color: var(--blue) !important;
+    color: var(--blue);
     padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+
+.team-grid {
+    max-width: 1300px;
+}
+
+/* Grid */
+
+.main-title {
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 0;
 }
 
 .container-research {
+    float: left;
     width: 50%;
 }
 
@@ -31,7 +51,6 @@ h6 {
         width: 100%;
         height: auto;
     }
-
 
     .fadeIn-bottom {
         top: 50% !important;
@@ -55,6 +74,7 @@ h6 {
     position: relative;
     min-width: 390px;
     min-height: 390px;
+    aspect-ratio: 1 / 1;
     margin: auto;
     overflow: hidden;
 }
