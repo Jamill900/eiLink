@@ -2,9 +2,22 @@
     <div class="header">
         <div class="header-content container">
             <h1>Team</h1>
-            <p>Open new horizons with eiLink to shape the future of AI applications in the industry. We are always
-                keen to meet fresh talents, so check out our vacancies.</p>
+            <p>We bring a wealth of skills and experience from a wide range of backgrounds.</p>
         </div>
     </div>
     <div class="section-break"></div>
+    <div class="container team">
+        <div class="research-grid row">
+            <div class="container-research col-lg-4 col-md-6 col-12 mt-3 mb-3" *ngFor="let members of team">
+                <div class="content" style="background: url('{{ members.cover }}'); background-position: center; background-size: cover;">
+                    <div class="content-overlay"></div>
+                    <div class="content-details fadeIn-bottom">
+                        <p class="content-text">{{ members.info }}</p>
+                    </div>
+                </div>
+                <h4>{{ members.name }}</h4>
+                <h6>{{ members.position }}</h6>
+            </div>
+        </div>
+    </div>
 </div>

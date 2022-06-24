@@ -8,41 +8,19 @@
         </div>
     </div>
 
-    <div class="row team-row mb-4">
-
-        <div class="col-md-4 col-sm-6 mb-4 team-wrap">
-            <div class="team-member text-center">
-                <div class="team-img">
-                    <img src="assets/images/team/shahriyar.jpg" alt="">
+    <div class="container team">
+        <div class="research-grid row">
+            <div class="container-research col-lg-4 col-md-6 col-12 mt-3 mb-3" *ngFor="let members of team | paginate: {itemsPerPage: 3, currentPage: 1}">
+                <div class="content" style="background: url('{{ members.cover }}'); background-position: center; background-size: cover;">
+                    <div class="content-overlay"></div>
+                    <div class="content-details fadeIn-bottom">
+                        <p class="content-text">{{ members.info }}</p>
+                    </div>
                 </div>
-                <h6 class="team-title">Shahriyar Alkhasli</h6>
-                <span>Director</span>
+                <h4>{{ members.name }}</h4>
+                <h6>{{ members.position }}</h6>
             </div>
         </div>
-        <!-- end team member -->
-
-        <div class="col-md-4 col-sm-6 mb-4 team-wrap">
-            <div class="team-member text-center">
-                <div class="team-img">
-                    <img src="assets/images/team/rustam.jpg" alt="">
-                </div>
-                <h6 class="team-title">Rustam Rustamov</h6>
-                <span>Senior Advisor</span>
-            </div>
-        </div>
-        <!-- end team member -->
-
-        <div class="col-md-4 col-sm-6 mb-4 team-wrap">
-            <div class="team-member last text-center">
-                <div class="team-img">
-                    <img src="assets/images/team/izat.jpg" alt="">
-                </div>
-                <h6 class="team-title">Izat Shahsenov</h6>
-                <span>Lead Researcher</span>
-            </div>
-        </div>
-        <!-- end team member -->
-
     </div>
 
     <div class="button">

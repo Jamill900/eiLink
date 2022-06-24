@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Project } from '../interfaces/project';
 import { Publication } from '../interfaces/publication';
 import { Career } from '../interfaces/career';
+import { Team } from '../interfaces/team';
 
 @Injectable({
     providedIn: 'root'
@@ -15,6 +16,7 @@ export class DatabaseService {
     private projectsUrl = 'api/projects';
     private publicationsUrl = 'api/publications';
     private careersUrl = 'api/careers';
+    private teamUrl = 'api/team';
 
     getProjects(): Observable<Project[]> {
         return this.http.get<Project[]>(this.projectsUrl);
@@ -36,5 +38,9 @@ export class DatabaseService {
 
     getCareers(): Observable<Career[]> {
         return this.http.get<Career[]>(this.careersUrl);
+    }
+
+    getTeam(): Observable<Team[]> {
+        return this.http.get<Team[]>(this.teamUrl);
     }
 }

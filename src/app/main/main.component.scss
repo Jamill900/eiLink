@@ -9,6 +9,7 @@ main {
         text-align: left;
 
         h1 {
+            color: var(--white);
             font-size: 4em;
             text-transform: uppercase;
         }
@@ -23,14 +24,14 @@ main {
             background: none;
             border: none;
             outline: none;
-            color: #fff;
+            color: var(--white);
             padding: 15px 25px;
-            border: 1px solid #fff;
+            border: 1px solid var(--white);
         }
 
         button:hover {
-            color: #282828;
-            background: #fff;
+            color: var(--dark);
+            background: var(--white);
             transition-duration: 600ms;
         }
     }
@@ -41,6 +42,6 @@ video {
 }
 
 #team {
-    background: #fff;
+    background: var(--white);
     padding: 75px 20px;
 }

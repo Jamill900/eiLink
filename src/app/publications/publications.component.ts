@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Publication } from '../interfaces/publication';
 import { DatabaseService } from '../services/database.service';
 
@@ -23,6 +24,10 @@ export class PublicationsComponent implements OnInit {
     this.database.getPublications().subscribe(publications => {
       this.publications = publications.reverse();
     })
+  }
+
+  navigateTo(url: string) {
+    window.open(`${url}`, "_blank");
   }
 
 }
