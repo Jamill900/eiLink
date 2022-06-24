@@ -1,1 +1,35 @@
-<p>publications works!</p>
+<div class="component">
+    <div class="header">
+        <div class="header-content container">
+            <h1>Publications</h1>
+            <p>Every year, eigroup teams carries more than 10 projects together with leading local and international
+                companies in multiple industries in both the private and public sectors.</p>
+        </div>
+    </div>
+    <div class="section-break"></div>
+    <div class="list">
+        <div class="container">
+            <div *ngFor="let publication of publications" class="project d-flex  flex-column flex-xl-row">
+                <div class="content">
+                    <h4>{{ publication.title }}</h4>
+                    <div class="bottom-section">
+                        <div class="details">
+                            <div class="author">
+                                <span>authors</span>
+                                {{ publication.authors }}
+                            </div>
+                            <div class="date">
+                                <span>date</span>
+                                <div class="tags">
+                                    <ul>
+                                        <li>{{ publication.date }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

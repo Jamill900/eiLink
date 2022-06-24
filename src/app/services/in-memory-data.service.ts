@@ -56,88 +56,78 @@ export class InMemoryDataService implements InMemoryDbService {
         let publications = [
             {
                 id: 1,
-                authors: '',
-                cover: 'assets/images/oil1.gif',
-                date: '25 February 2022',
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                link: ''
+                authors: 'Izat Shahsenov, Gurban Orujov',
+                date: '22 August 2018',
+                title: 'Modeling of the cementation factor and hydraulic permeability using Mercury Injection Capillary Pressure (MICP) measurements.',
+                link: 'https://www.sciencedirect.com/science/article/abs/pii/S0920410518306910'
             },
             {
                 id: 2,
-                authors: '',
-                cover: 'assets/images/oil1.gif',
-                date: '25 February 2022',
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                link: ''
+                authors: 'Izat Shahsenov, Ilgar Baghishov, Parviz Allahverdiyev, Ehtiram Azizov',
+                date: '1 March 2021',
+                title: 'Wax precipitation modelling using Perturbed Chain Statistical Associating Fluid Theory (PC-SAFT).',
+                link: 'https://www.sciencedirect.com/science/article/abs/pii/S037838122030460X?via%3Dihub#!'
             },
             {
                 id: 3,
-                authors: '',
-                cover: 'assets/images/oil1.gif',
-                date: '25 February 2022',
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                link: ''
+                authors: 'Izat Shahsenov, Ruslan Malikova, Peter Cook, Sara Grant, Nariman Ismayilov, Kamran Abbasov',
+                date: '17 December 2021',
+                title: 'Prediction of Gamma Ray data from pre-stack seismic reflection partial angle stacks using Continuous Wavelet Transform and convolutional neural network approach.',
+                link: 'https://www.sciencedirect.com/science/article/abs/pii/S0926985121002718'
             },
             {
                 id: 4,
-                authors: '',
-                cover: 'assets/images/oil1.gif',
-                date: '25 February 2022',
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                link: ''
-            },
-            {
-                id: 5,
-                authors: '',
-                cover: 'assets/images/oil1.gif',
-                date: '25 February 2022',
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                link: ''
+                authors: 'Shahriyar Alkhasli, Gasham Zeynalov, Aydin Shahtakhtinskiy',
+                date: '7 January 2022',
+                title: 'Quantifying occurrence of deformation bands in sandstone as a function of structural and petrophysical factors and their impact on reservoir quality: an example from outcrop analog of Productive Series (Pliocene), South Caspian Basin.',
+                link: 'https://link.springer.com/article/10.1007/s13202-021-01448-z'
             }
         ];
 
         let careers = [
             {
                 id: 1,
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                location: '',
-                cover: 'assets/images/oil1.gif',
-                description: '25 February 2022',
-                link: ''
+                name: 'Computational Geophysicist',
+                location: 'Baku, Azerbaijan',
+                link: 'https://forms.gle/U54VbCv1ubuCv2DS6'
             },
             {
                 id: 2,
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                location: '',
-                cover: 'assets/images/oil1.gif',
-                description: '25 February 2022',
-                link: ''
+                name: 'Applied Geophysicist',
+                location: 'Baku, Azerbaijan',
+                link: 'https://forms.gle/U54VbCv1ubuCv2DS6'
             },
             {
                 id: 3,
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                location: '',
-                cover: 'assets/images/oil1.gif',
-                description: '25 February 2022',
-                link: ''
+                name: 'Geophysicist (Interpreter)',
+                location: 'Baku, Azerbaijan',
+                link: 'https://forms.gle/U54VbCv1ubuCv2DS6'
             },
             {
                 id: 4,
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                location: '',
-                cover: 'assets/images/oil1.gif',
-                description: '25 February 2022',
-                link: ''
+                name: 'Signal Processing Engineer',
+                location: 'Baku, Azerbaijan',
+                link: 'https://forms.gle/U54VbCv1ubuCv2DS6'
             },
             {
                 id: 5,
-                title: 'The first product of WAVERITY: Seismic Image Quality Enhancement (S.I.Q.E.)',
-                location: '',
-                cover: 'assets/images/oil1.gif',
-                description: '25 February 2022',
-                link: ''
+                name: 'Advanced Data Science',
+                location: 'Baku, Azerbaijan',
+                link: 'https://forms.gle/U54VbCv1ubuCv2DS6'
+            },
+            {
+                id: 6,
+                name: 'Applied Geologist',
+                location: 'Baku, Azerbaijan',
+                link: 'https://forms.gle/U54VbCv1ubuCv2DS6'
+            },
+            {
+                id: 7,
+                name: 'Well Planner',
+                location: 'Baku, Azerbaijan',
+                link: 'https://forms.gle/U54VbCv1ubuCv2DS6'
             }
-        ];
+        ]
 
         return { projects, publications, careers };
     }

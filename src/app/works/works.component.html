@@ -9,9 +9,9 @@
                     <img src="{{ project.cover }}"
                         height="300px" width="100%" alt="">
                 </div>
-                <div class="body_post">
+                <div class="body_post" routerLink="/projects/{{ project.id }}">
                     <div class="post_content">
-                        <h1 routerLink="/projects/{{ project.id }}">{{ project.title }}</h1>
+                        <h1>{{ project.title }}</h1>
                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi assumenda cumque
                             deserunt
                             dolorum ex exercitationem.</p> -->

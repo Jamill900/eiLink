@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Career } from '../interfaces/career';
+import { DatabaseService } from '../services/database.service';
 
 @Component({
   selector: 'app-careers',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CareersComponent implements OnInit {
 
-  constructor() { }
+  careers: Career[] = [];
+  loading = false;
+
+  constructor(private database: DatabaseService) { }
 
   ngOnInit(): void {
+  }
+
+  getCareers() {
+    this.loading = true;
+    this.database.getCareers().subscribe(careers => {
+      this.careers = careers;
+    })
   }
 
 }

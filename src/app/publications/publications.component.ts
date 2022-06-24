@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Publication } from '../interfaces/publication';
+import { DatabaseService } from '../services/database.service';
 
 @Component({
   selector: 'app-publications',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PublicationsComponent implements OnInit {
 
-  constructor() { }
+  publications: Publication[] = [];
+  loading = false;
+
+  constructor(private database: DatabaseService) { }
 
   ngOnInit(): void {
+    this.getPublications();
+  }
+
+  getPublications() {
+    this.loading = true;
+    this.database.getPublications().subscribe(publications => {
+      this.publications = publications.reverse();
+    })
   }
 
 }

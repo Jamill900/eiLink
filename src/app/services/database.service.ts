@@ -13,7 +13,7 @@ export class DatabaseService {
     constructor(private http: HttpClient) { }
 
     private projectsUrl = 'api/projects';
-    private publicationsUrl = 'api/projects';
+    private publicationsUrl = 'api/publications';
     private careersUrl = 'api/careers';
 
     getProjects(): Observable<Project[]> {

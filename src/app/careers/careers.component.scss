@@ -1,0 +1,25 @@
+.component {
+    background: var(--white);
+}
+
+.header {
+    background: url('../../assets/images/about-dark.png') no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-top: -95px;
+
+    .header-content {
+        padding-top: 150px;
+
+        >h1 {
+            color: var(--white);
+            text-transform: uppercase;
+            font-size: 4em;
+        }
+
+        >p {
+            color: var(--white);
+            max-width: 800px;
+        }
+    }
+}
