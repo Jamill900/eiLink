@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Career } from '../interfaces/career';
 import { DatabaseService } from '../services/database.service';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-careers',
@@ -9,12 +10,15 @@ import { DatabaseService } from '../services/database.service';
 })
 export class CareersComponent implements OnInit {
 
+  faLocationDot = faLocationDot;
+
   careers: Career[] = [];
   loading = false;
 
   constructor(private database: DatabaseService) { }
 
   ngOnInit(): void {
+    this.getCareers();
   }
 
   getCareers() {
@@ -22,6 +26,10 @@ export class CareersComponent implements OnInit {
     this.database.getCareers().subscribe(careers => {
       this.careers = careers;
     })
+  }
+
+  navigateTo(url: string) {
+    window.open(url, '_blank');
   }
 
 }

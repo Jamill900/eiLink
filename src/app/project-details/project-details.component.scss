@@ -1,0 +1,100 @@
+.component {
+    background: var(--white);
+}
+
+.header {
+    background: url('../../assets/images/about-dark.png') no-repeat;
+    background-size: cover;
+    height: 40vh;
+
+    .header-content {
+        padding-top: 150px;
+
+        >h1 {
+            color: var(--white);
+            text-transform: uppercase;
+            font-size: 3em;
+        }
+
+        >p {
+            color: var(--white);
+            max-width: 800px;
+        }
+    }
+}
+
+.overall {
+    min-height: 90vh;
+}
+
+.tags {
+    margin: 30px 0;
+
+    span:not(last-child) {
+        text-transform: uppercase;
+        background: var(--blue);
+        padding: 10px 15px;
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--white);
+    }
+}
+
+.info {
+    p {
+        text-align: justify;
+        line-height: 30px;
+        font-size: 17px;
+    }
+}
+
+.break {
+    width: 100%;
+    height: 2px;
+    background: var(--pink);
+    margin: 10px 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+
+    .author,
+    .date {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px 15px 0;
+
+        h6 {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: bold;
+            color: var(--blue);
+            letter-spacing: 1px;
+        }
+
+        span {
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .header-content {
+        padding-top: 90px !important;
+    }
+
+    h1 {
+        font-size: 2em !important;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+}

@@ -26,7 +26,6 @@ import { CareersComponent } from './careers/careers.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { WorksComponent } from './works/works.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,5 +1,32 @@
-<div *ngIf="project">
-    <div>
-        
+<div class="overall">
+    <div *ngIf="project">
+        <div class="component">
+            <div class="header">
+                <div class="header-content container">
+                    <h1>{{ project.title }}</h1>
+                </div>
+            </div>
+            <div class="section-break"></div>
+            <div class="container">
+                <div class="tags">
+                    <span>{{ project.industry }}</span>
+                    <span>{{ project.service }}</span>
+                </div>
+                <div class="info">
+                    <p>{{ project.description }}</p>
+                </div>
+                <div class="break"></div>
+                <div class="details">
+                    <div class="author">
+                        <h6>Author</h6>
+                        <span>{{ project.author }}</span>
+                    </div>
+                    <div class="date">
+                        <h6>Date</h6>
+                        <span>{{ project.date }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

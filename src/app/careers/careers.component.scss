@@ -22,3 +22,30 @@
         }
     }
 }
+
+.grid {
+    padding: 50px 0;
+    .row {
+        grid-gap: 20px;
+    }
+
+    .vacancy {
+        background: var(--white);
+        padding: 30px;
+        margin: 20px 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-left: 3px solid var(--blue);
+        transition: all .3s linear;
+        cursor: pointer;
+    }
+
+    .vacancy:hover {
+        box-shadow: none;
+    }
+
+    fa-icon {
+        color: var(--blue);
+        margin-right: 5px;
+    }
+
+}
