@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Team } from '../interfaces/team';
 import { DatabaseService } from '../services/database.service';
+import AOS from "aos";
 
 @Component({
   selector: 'app-team-details',
@@ -16,6 +17,7 @@ export class TeamDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.getTeam();
+    AOS.init();
   }
 
   getTeam() {

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Project } from '../interfaces/project';
 import { DatabaseService } from '../services/database.service';
+import AOS from "aos";
 
 @Component({
   selector: 'app-project-details',
@@ -18,6 +19,7 @@ export class ProjectDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.getProjectById();
+    AOS.init();
   }
 
   getProjectById(): void {

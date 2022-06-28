@@ -1,5 +1,6 @@
 .component {
     background: var(--white);
+    min-height: 100vh;
 }
 
 .header {
@@ -25,6 +26,7 @@
 
 .grid {
     padding: 50px 0;
+
     .row {
         grid-gap: 20px;
     }
@@ -37,6 +39,11 @@
         border-left: 3px solid var(--blue);
         transition: all .3s linear;
         cursor: pointer;
+        animation-name: animateIn;
+        animation-duration: 600ms;
+        animation-delay: calc(var(--animation-order) * 100ms);
+        animation-fill-mode: both;
+        animation-timing-function: ease-in-out;
     }
 
     .vacancy:hover {

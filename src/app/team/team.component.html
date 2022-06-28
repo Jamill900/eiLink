@@ -1,8 +1,8 @@
 <div class="team">
-    <h1>Our Experts</h1>
-    <p>et's meet with our team members</p>
+    <h1 data-aos="fade-up" data-aos-duration="600">Our Experts</h1>
+    <p data-aos="fade-up" data-aos-duration="600">et's meet with our team members</p>
     <div class="team-grid">
-        <div class="container-research" *ngFor="let members of team | paginate: {itemsPerPage: 3, currentPage: 1}">
+        <div class="container-research" data-aos="fade-up" data-aos-duration="600" *ngFor="let members of team | paginate: {itemsPerPage: 3, currentPage: 1}">
             <div class="content"
                 style="background: url('{{ members.cover }}'); background-position: center; background-size: cover;">
                 <div class="content-overlay"></div>
@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <div class="button">
+    <div class="button" data-aos="fade-up" data-aos-duration="600">
         <button routerLink="/team">Meet All Team</button>
     </div>
 </div>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { Publication } from '../interfaces/publication';
 import { DatabaseService } from '../services/database.service';
+import AOS from "aos";
 
 @Component({
   selector: 'app-publications',
@@ -17,6 +17,7 @@ export class PublicationsComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPublications();
+    AOS.init();
   }
 
   getPublications() {

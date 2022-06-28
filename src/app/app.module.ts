@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './services/in-memory-data.service';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { NgwWowModule } from 'ngx-wow';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -54,7 +55,8 @@ import { WorksComponent } from './works/works.component';
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     ),
-    NgxPaginationModule
+    NgxPaginationModule,
+    NgwWowModule
   ],
   providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy}],
   bootstrap: [AppComponent],

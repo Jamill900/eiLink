@@ -1,38 +1,28 @@
 <div class="works">
-    <h1>Latest Projects</h1>
-    <p>All projects address customer’s emerging technical and technological issues that have direct and tangible link to
+    <h1 data-aos="fade-up" data-aos-duration="600">Latest Projects</h1>
+    <p data-aos="fade-up" data-aos-duration="600">All projects address customer’s emerging technical and technological issues that have direct and tangible link to
         their business. </p>
     <div class="container">
         <div class="row">
-            <div class="post col-lg-4 col-12" *ngFor="let project of projects | paginate: {itemsPerPage: 3, currentPage: 1}">
-                <div class="header_post">
-                    <img src="{{ project.cover }}"
-                        height="300px" width="100%" alt="">
-                </div>
-                <div class="body_post" routerLink="/projects/{{ project.id }}">
-                    <div class="post_content">
-                        <h1>{{ project.title }}</h1>
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi assumenda cumque
-                            deserunt
-                            dolorum ex exercitationem.</p> -->
-                        <div class="container_infos">
-                            <div class="postedBy">
-                                <span>author</span>
-                                {{ project.author }}
-                            </div>
-                            <div class="container_tags">
-                                <span>date</span>
-                                <div class="tags">
-                                    <ul>
-                                        <li>{{ project.date }}</li>
-                                    </ul>
-                                </div>
-                            </div>
+            <div class="post col-lg-4 col-12 mt-2 mb-2" data-aos="fade-up" data-aos-duration="600"
+                *ngFor="let project of projects | paginate: {itemsPerPage: 3, currentPage: 1}">
+                <img src="{{ project.cover }}" height="300px" width="100%" alt="">
+                <div class="body-post" routerLink="/projects/{{ project.id }}">
+                    <h3>{{ project.title }}</h3>
+                    <div class="break"></div>
+                    <div class="details">
+                        <div class="author">
+                            <h6>Author</h6>
+                            <span>{{ project.author }}</span>
+                        </div>
+                        <div class="date">
+                            <h6>Date</h6>
+                            <span>{{ project.date }}</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <button routerLink="/projects">View All Projects</button>
+    <button data-aos="fade-up" data-aos-duration="600" routerLink="/projects">View All Projects</button>
 </div>

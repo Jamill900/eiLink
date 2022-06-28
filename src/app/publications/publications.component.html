@@ -1,15 +1,15 @@
 <div class="component">
     <div class="header">
         <div class="header-content container">
-            <h1>Publications</h1>
-            <p>Every year, eigroup teams carries more than 10 projects together with leading local and international
+            <h1 data-aos="fade-right" data-aos-duration="600">Publications</h1>
+            <p data-aos="fade-right" data-aos-duration="600">Every year, eigroup teams carries more than 10 projects together with leading local and international
                 companies in multiple industries in both the private and public sectors.</p>
         </div>
     </div>
     <div class="section-break"></div>
     <div class="list">
         <div class="container">
-            <div *ngFor="let publication of publications" class="project d-flex  flex-column flex-xl-row">
+            <div *ngFor="let publication of publications" class="publication d-flex  flex-column flex-xl-row"  style="--animation-order: {{ publication.id }}">
                 <div class="content" (click)="navigateTo(publication.link)">
                     <h4>{{ publication.title }}</h4>
                     <div class="bottom-section">

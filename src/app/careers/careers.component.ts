@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Career } from '../interfaces/career';
 import { DatabaseService } from '../services/database.service';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import AOS from "aos";
 
 @Component({
   selector: 'app-careers',
@@ -19,6 +20,7 @@ export class CareersComponent implements OnInit {
 
   ngOnInit(): void {
     this.getCareers();
+    AOS.init();
   }
 
   getCareers() {
