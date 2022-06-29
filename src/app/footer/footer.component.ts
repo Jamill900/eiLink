@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faPhone, faMapLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-footer',
@@ -12,9 +13,15 @@ export class FooterComponent implements OnInit {
   faMapLocationDot = faMapLocationDot;
   faEnvelope = faEnvelope;
 
-  constructor() { }
+  constructor (private modalService: NgbModal) {}
+
+
 
   ngOnInit(): void {
+  }
+
+  openLg(content: any) {
+    this.modalService.open(content, {size: 'lg' });
   }
 
 }
