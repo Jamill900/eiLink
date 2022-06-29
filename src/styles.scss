@@ -49,7 +49,7 @@ body {
 /* About Us */
 
 #left-img {
-    background-image: url(assets/images/vision.jpeg);
+    background-image: url(assets/images/vision.jpg);
     background-position: center;
     background-size: cover;
 
@@ -64,7 +64,7 @@ body {
 @media screen and (max-width: 1400px) {
 
     #right {
-        background-image: url(assets/images/vision-dark.png) !important;
+        background-image: url(assets/images/vision-dark.jpg) !important;
         background-position: center !important;
         background-size: cover !important;
 
@@ -90,7 +90,7 @@ body {
 }
 
 #drilling {
-    background: url(assets/images/research/drilling.webp);
+    background: url(assets/images/research/drilling.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -103,13 +103,13 @@ body {
 }
 
 #thermodynamics {
-    background: url(assets/images/research/thermodynamics.jpeg);
+    background: url(assets/images/research/thermodynamics.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #reservoir {
-    background: url(assets/images/research/reservoir.jpeg);
+    background: url(assets/images/research/reservoir.jpg);
     background-position: center;
     background-size: cover;
 }

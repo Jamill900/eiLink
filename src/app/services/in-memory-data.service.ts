@@ -149,7 +149,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 name: 'Izat Shahsenov',
                 position: 'Lead Researcher',
                 info: 'Izat graduated with MS degree Moscow Institute of Physics and Technology (MIPT), Department of Physical and Quantum Electronics. With strong background in applied physics and math, Izat leads eiLInk research projects with application of Mathematical Modeling, Machine Learning, Deep Learning and Computer Vision.',
-                cover: 'assets/images/team/izat.jpeg'
+                cover: 'assets/images/team/izat.jpg'
             },
             {
                 id: 3,
@@ -212,7 +212,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 name: 'Javidan Abdullayev',
                 position: 'Research Assistant',
                 info: 'Javidan earned a BS degree a specialization in Computer Science from Khazar University. As a research assistant at eiLink he is focusing on Data Analytics, Software Development, application of Machine Learning, Deep Learning and Computer Vision. He is currently studying for a Master`s Degree in Data Science and Artificial Intelligence at the French-Azerbaijan University.',
-                cover: 'assets/images/team/javidan.jpeg'
+                cover: 'assets/images/team/javidan.jpg'
             }
         ]
 
