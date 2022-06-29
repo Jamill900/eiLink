@@ -11,7 +11,7 @@
     z-index: 30;
     visibility: visible;
     opacity: 1;
-    animation: backgrounds 6s linear forwards ;
+    animation: backgrounds 5s linear forwards ;
 }
 
 img {
@@ -20,7 +20,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    animation: logo 6s linear forwards;
+    animation: logo 5000ms linear forwards;
 }
 
 @keyframes logo {
@@ -35,15 +35,15 @@ img {
         opacity: 0;
     }
 
-    45% {
+    50% {
         opacity: 1;
     }
 
-    60% {
+    65% {
         opacity: 0;
     }
 
-    75% {
+    80% {
         opacity: 1;
     }
 
