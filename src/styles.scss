@@ -142,3 +142,15 @@ body {
         opacity: 1;
     }
 }
+
+@keyframes preload {
+    0% {
+        opacity: o;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

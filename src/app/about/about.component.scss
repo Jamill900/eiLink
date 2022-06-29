@@ -1,6 +1,8 @@
 .about-layout {
     display: grid;
     grid-template-columns: auto auto;
+    opacity: 0;
+    animation: preload 6s linear forwards;
 
     >div {
         width: 100%;
