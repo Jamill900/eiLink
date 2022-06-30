@@ -8,10 +8,19 @@
     position: fixed !important;
     top: 0;
     left: 0;
-    z-index: 30;
+    z-index: 99;
     visibility: visible;
     opacity: 1;
-    animation: backgrounds 5s linear forwards ;
+    animation: backgrounds 5s linear forwards;
+
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed !important;
+        top: 0;
+        left: 0;
+    }
 }
 
 img {
@@ -27,6 +36,7 @@ img {
     0% {
         opacity: 0;
     }
+
     15% {
         opacity: 1;
     }
@@ -57,9 +67,11 @@ img {
         opacity: 1;
         visibility: visible;
     }
-    95%{
+
+    95% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         visibility: hidden;
