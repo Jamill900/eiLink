@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { faPhone, faMapLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faMapLocationDot, faEnvelope, faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+
 
 @Component({
   selector: 'app-footer',
@@ -12,6 +13,7 @@ export class FooterComponent implements OnInit {
   faPhone = faPhone;
   faMapLocationDot = faMapLocationDot;
   faEnvelope = faEnvelope;
+  faArrowRightLong = faArrowRightLong;
 
   constructor (private modalService: NgbModal) {}
 

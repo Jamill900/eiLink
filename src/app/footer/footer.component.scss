@@ -21,7 +21,7 @@ a {
 }
 
 .border-shape {
-    background: var(--blue);
+    background: var(--dark);
     color: #fff;
     display: block;
     height: 3px;
@@ -35,7 +35,7 @@ a {
 }
 
 .border-shape::before {
-    background: var(--blue);
+    background: var(--dark);
     bottom: 0;
     content: "";
     height: 1px;
@@ -48,7 +48,7 @@ a {
 }
 
 .border-shape::after {
-    background: var(--blue);
+    background: var(--dark);
     bottom: 0;
     content: "";
     height: 1px;
@@ -121,7 +121,7 @@ footer .bottom_content section {
 
 .copyright {
     padding: 0.8em 0;
-    background: var(--blue);
+    background: linear-gradient(45deg, #F58C83, #ED7186, #194E82, #525383);
     text-align: center;
     color: var(--white);
     font-size: 12px;
@@ -298,4 +298,47 @@ form .form-row .textarea {
             color: var(--white);
         }
     }
+}
+
+.apply {
+    background: var(--white);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h6 {
+        font-weight: 700;
+        color: var(--pink);
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 3.5em;
+        padding: 20px 0;
+    }
+
+    fa-icon {
+        font-size: 20px;
+    }
+
+    button {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px;
+        outline: none;
+        border: none;
+        background: transparent;
+    }
+
+    button:hover{
+        color: var(--pink);
+
+        fa-icon {
+            color: var(--pink);
+        }
+    }
+}
+
+@keyframes arrow {
+    0% { transform: scaleX(1);}
+    100% { transform: scaleX(1.5);}
 }

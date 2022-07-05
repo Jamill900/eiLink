@@ -98,7 +98,7 @@ body {
 
 #digitalrocks {
     background: var(--dark);
-    background: url(assets/images/research/digital_rocks.png);
+    background: url(assets/images/research/digital_rocks.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -141,5 +141,15 @@ body {
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes come-up {
+    0% {
+        transform: translateY(100vh);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }

@@ -11,7 +11,7 @@
     z-index: 99;
     visibility: visible;
     opacity: 1;
-    animation: backgrounds 5s linear forwards;
+    animation: backgrounds 6s linear forwards;
 
     video {
         object-fit: cover;
@@ -30,7 +30,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    animation: logo 5000ms linear forwards;
+    animation: logo 6000ms linear forwards;
 }
 
 @keyframes logo {
@@ -78,3 +78,25 @@ img {
         visibility: hidden;
     }
 }
+
+/* @keyframes backgrounds {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    98% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100vh);
+        visibility: hidden;
+    }
+} */
