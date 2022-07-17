@@ -70,7 +70,7 @@ export class InMemoryDataService implements InMemoryDbService {
             },
             {
                 id: 2,
-                authors: 'Izat Shahsenov, Ruslan Malikova, Peter Cook, Sara Grant, Nariman Ismayilov, Kamran Abbasov',
+                authors: 'Izat Shahsenov, Ruslan Malikov, Peter Cook, Sara Grant, Nariman Ismayilov, Kamran Abbasov',
                 date: '17 December 2021',
                 title: 'Prediction of Gamma Ray data from pre-stack seismic reflection partial angle stacks using Continuous Wavelet Transform and convolutional neural network approach.',
                 link: 'https://www.sciencedirect.com/science/article/abs/pii/S0926985121002718'
