@@ -14,6 +14,7 @@ export class FooterComponent implements OnInit {
   faMapLocationDot = faMapLocationDot;
   faEnvelope = faEnvelope;
   faArrowRightLong = faArrowRightLong;
+  isApplyVisible: boolean = true;
 
   constructor (private modalService: NgbModal) {}
 

@@ -2,14 +2,16 @@
     <div class="header">
         <div class="header-content container">
             <h1 data-aos="fade-right" data-aos-duration="600">Projects</h1>
-            <p data-aos="fade-right" data-aos-duration="600">Every year, eigroup teams carries more than 10 projects together with leading local and international
-                companies in multiple industries in both the private and public sectors.</p>
+            <p data-aos="fade-right" data-aos-duration="600">We do not consider the research successful until the
+                results make its way to the practical application with a commercial benefit to the industry.
+            </p>
         </div>
     </div>
     <div class="section-break"></div>
     <div class="list">
         <div class="container">
-            <div *ngFor="let project of projects" class="project d-flex  flex-column flex-xl-row"  style="--animation-order: {{ project.id }}">
+            <div *ngFor="let project of projects" class="project d-flex  flex-column flex-xl-row"
+                style="--animation-order: {{ project.id }}">
                 <img src="{{ project.cover }}" alt="">
                 <div class="content">
                     <h3 routerLink="/projects/{{ project.id }}">{{ project.title }}</h3>
@@ -38,3 +40,4 @@
         </div>
     </div>
 </div>
+<app-apply></app-apply>
