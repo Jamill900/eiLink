@@ -27,6 +27,7 @@ import { CareersComponent } from './careers/careers.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { WorksComponent } from './works/works.component';
 import { ApplyComponent } from './apply/apply.component';
+import { PartnershipComponent } from './partnership/partnership.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { ApplyComponent } from './apply/apply.component';
     CareersComponent,
     SponsorsComponent,
     WorksComponent,
-    ApplyComponent
+    ApplyComponent,
+    PartnershipComponent
   ],
   imports: [
     BrowserModule,

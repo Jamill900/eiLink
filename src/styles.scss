@@ -153,3 +153,10 @@ body {
         transform: translateY(0);
     }
 }
+
+.team-photo {
+    height: 50vh;
+    background: url(assets/images/team.jpg);
+    background-position: center;
+    background-size: cover;
+}

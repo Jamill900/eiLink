@@ -1,0 +1,29 @@
+.partnership {
+    z-index: 25 !important;
+    padding: 50px 20px;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    * {
+        color: #282828;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        color: var(--blue);
+        padding-bottom: 30px;
+    }
+
+    p {
+        max-width: 800px;
+        padding-bottom: 40px;
+    }
+}
+
+img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
