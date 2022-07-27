@@ -11,10 +11,12 @@
         color: #282828;
     }
 
-    h1 {
+    h5 {
         text-transform: uppercase;
-        color: var(--blue);
-        padding-bottom: 30px;
+        color: #c8c8c8; //var(--blue);
+        font-weight: bold;
+        padding-top: 20px;
+        margin-bottom: 0;
     }
 
     p {
