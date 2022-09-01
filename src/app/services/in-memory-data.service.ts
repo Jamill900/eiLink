@@ -209,10 +209,10 @@ export class InMemoryDataService implements InMemoryDbService {
             },
             {
                 id: 11,
-                name: 'Javidan Abdullayev',
-                position: 'Research Assistant',
-                info: 'Javidan earned a BS degree a specialization in Computer Science from Khazar University. As a research assistant at eiLink he is focusing on Data Analytics, Software Development, application of Machine Learning, Deep Learning and Computer Vision. He is currently studying for a Master`s Degree in Data Science and Artificial Intelligence at the French-Azerbaijan University.',
-                cover: 'assets/images/team/javidan.jpg'
+                name: 'Orkhan Mammadov',
+                position: 'Researcher',
+                info: 'Orkhan joined the eiLink team while doing his Ph.D. at the China University of Petroleum (Beijing) with a major in Geological Reservoir Development. His M.Eng. research at CUPB was covering 3D reservoir modelling and characterization of an unconventional reservoir. Experienced in a wide range of geoscience-related fields, in eiLink he mainly focused on solving industrial problems using Python, Data Analysis, and the application of Machine Learning.',
+                cover: 'assets/images/team/orkhan.jpg'
             }
         ]
 
