@@ -134,84 +134,84 @@ export class InMemoryDataService implements InMemoryDbService {
                 id: 0,
                 name: 'Shahriyar Alkhasli',
                 position: 'Director',
-                info: 'Shahriyar has a MS degree in Petroleum Engineering from University of Tulsa, USA. Currently he is doing his PhD in Petroleum Engineering at Khazar University. With extensive work and research experience in various petroleum engineering fields, he applies his technical and programming skills in leading eiLink projects. Particularly his research is concentrated in: Modeling of sub-seismic features and dynamic simulation; Stochastic optimization for assisted history matching Computational Fluid Dynamics – LBM; Deep Learning.',
+                info: 'Shahriyar graduated from the University of Tulsa in the United States with an MS in Petroleum Engineering. He is presently pursuing his PhD in Petroleum Engineering at Khazar University. With extensive work and research experience in various petroleum engineering fields, he applies his technical and programming skills in leading eiLink projects. His research primarily focuses on Computational Fluid Dynamics—LBM, Deep Learning, stochastic optimization for assisted history matching, and modeling and dynamic simulation of sub-seismic features.',
                 cover: 'assets/images/team/shahriyar.jpg'
             },
             {
                 id: 1,
                 name: 'Rustam Rustamov',
                 position: 'Senior Advisor',
-                info: 'He graduated with a PhD from the Ioffe Physical-Technical Institute of the Russian Academy of Sciences in St Petersburg, Russia. Rustam Rustamov primarily specialises in space instrumentation and remote sensing and GIS technology. He has extensive directing and managing experience in in various public, private engineering and scientific organizations At eiLink he works as managing director of the centre , supporting the work of the centre and contributing invaluably with his insight and experience. His areas of expertise : Management, Remote Sensing , Geographic Information Systems, Satellite.',
+                info: 'He received his PhD from the Ioffe Physical-Technical Institute of the Russian Academy of Sciences in St. Petersburg, Russia. The areas of expertise for Rustam Rustamov are remote sensing, GIS, and space instrumentation. He has a wealth of expertise leading and managing in both public and private engineering and scientific institutions.',
                 cover: 'assets/images/team/rustam.jpg'
             },
             {
                 id: 2,
                 name: 'Izat Shahsenov',
                 position: 'Lead Researcher',
-                info: 'Izat graduated with MS degree Moscow Institute of Physics and Technology (MIPT), Department of Physical and Quantum Electronics. With strong background in applied physics and math, Izat leads eiLInk research projects with application of Mathematical Modeling, Machine Learning, Deep Learning and Computer Vision.',
+                info: 'Izat graduated with an MS degree from the Moscow Institute of Physics and Technology (MIPT), Department of Physical and Quantum Electronics. With a strong background in applied physics and math, Izat leads eiLInk research projects with applications of Mathematical Modeling, Machine Learning, Deep Learning, and Computer Vision.',
                 cover: 'assets/images/team/izat.jpg'
             },
             {
                 id: 3,
                 name: 'Vafa Dadashova',
                 position: 'Researcher',
-                info: 'After graduating with master’s degree in Petroleum Engineering from Imperial College London she joined eiLInk as a researcher. At eiLink she focuses on solving geological and engineering problems. Her research area focuses on understanding shale mineralogy distribution and the process of compaction. In addition, it incorporates solving petroleum engineering problems by modelling reservoir flow using commercial software as well as coding.',
+                info: 'She joined eiLink as a researcher after earning a master’s degree in Petroleum Engineering from Imperial College London. At eiLink, Vafa works on solving geological and engineering problems. Her area of study is the distribution of shale minerals and the compaction process. In addition, it incorporates solving petroleum engineering problems by modelling reservoir flow using commercial software as well as coding.',
                 cover: 'assets/images/team/vafa.jpg'
             },
             {
                 id: 4,
                 name: 'Turan Eminbeyli',
                 position: 'Researcher',
-                info: 'Turan graduated from Azerbaijan State Oil Academy with bachelor degree in Petroleum Geology. Prior to joining eiLink he spent 10 years as a geologist in international oil companies. He is responsible for delivering industry demanding research products in the areas of Oil & Gas Exploration, Appraisal and Production.',
+                info: 'Turan graduated from Azerbaijan State Oil Academy with bachelor’s degree in Petroleum Geology. Prior to joining eiLink he spent 10 years as a geologist for international oil companies. He is responsible for delivering industry-demanding research products in the areas of Oil & Gas Exploration, Appraisal and Production.',
                 cover: 'assets/images/team/turan.jpeg'
             },
             {
                 id: 5,
                 name: 'Ruslan Malikov',
                 position: 'Junior Researcher',
-                info: 'Ruslan graduated with a bachelor’s degree in Geophysical Engineering from French-Azerbaijan University. He started his journey with eiLink while being a student as a research assistant. After a lot of hard work, dedication, and time of growth, he became a junior researcher at eiLink. His research areas include Seismic Inversion and Processing, Signal Processing, Data Analysis, Software Development, and application of Machine Learning.',
+                info: 'Ruslan graduated with a bachelor’s degree in Geophysical Engineering from French-Azerbaijan University. He started his journey with eiLink while being a student as a research assistant. After a lot of hard work, dedication, and time of growth, he became a junior researcher at eiLink. His research areas include Seismic Inversion and Processing, Signal Processing, Data Analysis, Software Development, and the application of Machine Learning.',
                 cover: 'assets/images/team/ruslan.jpg'
             },
             {
                 id: 6,
                 name: 'Ramil Mamishov',
                 position: 'Junior Researcher',
-                info: 'Ramil holds a BS degree in Engineering from both Baku Higher Oil School and Heriot&Watt University.',
+                info: 'Ramil holds a BS degree in Engineering from both Baku Higher Oil School and Heriot-Watt University.',
                 cover: 'assets/images/team/ramil.jpg'
             },
             {
                 id: 7,
                 name: 'Gunel Rzayeva',
                 position: 'Junior Researcher',
-                info: 'After completing her master degree in oil and gas engineering from University of Aberdeen, Gunel started to work at Baku Engineering University. While being as a lecturer at university, she joined eiLink as a researcher. Her strong mathematical solving strategies and engineering background help her to do eiLink projects.',
+                info: 'After completing her master’s degree in oil and gas engineering from the University of Aberdeen, Gunel started to work at Baku Engineering University. While working as a lecturer at the university, she joined eiLink as a researcher. Her solid mathematical problem-solving techniques and engineering training help her work on eiLink projects.',
                 cover: 'assets/images/team/gunel.jpg'
             },
             {
                 id: 8,
                 name: 'Elmir Abilov',
                 position: 'Junior Researcher',
-                info: 'Elmir graduated with a Master of Science degree in Energy Resources and Petroleum Engineering from King Abdullah University of Science and Technology of Saudi Arabia and with a Bachelor’s degree in Petroleum Engineering from Baku Higher Oil School and Heriot-Watt University. At eiLink, his focus will be developing solutions in the Oil&Gas Production.',
+                info: 'Elmir graduated with a Master of Science degree in Energy Resources and Petroleum Engineering from King Abdullah University of Science and Technology of Saudi Arabia and with a Bachelor’s degree in Petroleum Engineering from Baku Higher Oil School and Heriot-Watt University. At eiLink, his focus is developing solutions in Oil&Gas Production.',
                 cover: 'assets/images/team/elmir.jpg'
             },
             {
                 id: 9,
                 name: 'Tatyana Yeleskina',
                 position: 'Junior Researcher',
-                info: 'Tatyana has a BS degree in Physics from Moscow State University Baku Branch. While being a student, she joined to eiLink team as a research assistant. Particularly here research is concentrated in: development of physical models for different industrial inversion problems, signal processing, data science and statistics.',
+                info: 'Tatyana has a BS degree in Physics from Moscow State University Baku Branch. While being a student, she joined eiLink team as a research assistant. Particularly here, her research area is concentrated on the development of physical models for different industrial inversion problems, signal processing, data science, and statistics.',
                 cover: 'assets/images/team/tatyana.jpg'
             },
             {
                 id: 10,
                 name: 'Fidan Karimova',
                 position: 'Research Assistant',
-                info: 'Fidan graduated with a bachelor’s degree in Computer Science from French-Azerbaijani University. She started her professional experience as a research assistant at eiLink while she was still a student. Her research areas focus mainly on Data Analysis, Remote Sensing and Machine Learning.',
+                info: 'Fidan graduated with a bachelor’s degree in Computer Science from French-Azerbaijani University. She started her professional experience as a research assistant at eiLink while she was still a student. Her research areas focus mainly on Data Analysis, Remote Sensing, and Machine Learning.',
                 cover: 'assets/images/team/fidan.jpg'
             },
             {
                 id: 11,
                 name: 'Orkhan Mammadov',
                 position: 'Researcher',
-                info: 'Orkhan joined the eiLink team while doing his Ph.D. at the China University of Petroleum (Beijing) with a major in Geological Reservoir Development. His M.Eng. research at CUPB was covering 3D reservoir modelling and characterization of an unconventional reservoir. Experienced in a wide range of geoscience-related fields, in eiLink he mainly focused on solving industrial problems using Python, Data Analysis, and the application of Machine Learning.',
+                info: 'Orkhan joined the eiLink team while doing his Ph.D. at the China University of Petroleum (Beijing) with a major in Geological Reservoir Development. His M.Eng. research at CUPB covered 3D reservoir modelling and characterization of an unconventional reservoir. He has worked in a variety of geoscience-related fields, but his primary focus at eiLink is on solving industrial problems with Python, Data Analysis, and Machine Learning. ',
                 cover: 'assets/images/team/orkhan.jpg'
             }
         ]
