@@ -87,43 +87,43 @@ export class InMemoryDataService implements InMemoryDbService {
         let careers = [
             {
                 id: 0,
-                name: 'Computational Geophysicist',
+                name: 'Computational Geophysicist | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2063/CHWZG24AES9N9RKYY2'
             },
             {
                 id: 1,
-                name: 'Applied Geophysicist',
+                name: 'Applied Geophysicist | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2043/Q76I6XXGNLR85331PB'
             },
             {
                 id: 2,
-                name: 'Geophysicist (Interpreter)',
+                name: 'Geophysicist (Interpreter) | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2103/2ZSD4244VIBM9LPBZK'
             },
             {
                 id: 3,
-                name: 'Signal Processing Engineer',
+                name: 'Signal Processing Engineer | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2083/6SPI1CAZ1OXL2MMW4J'
             },
             {
                 id: 4,
-                name: 'Advanced Data Science',
+                name: 'Advanced Data Science | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2023/FPZ380T896T54I8HRR'
             },
             {
                 id: 5,
-                name: 'Applied Geologist',
+                name: 'Applied Geologist | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-1983/7SXHYOXA3LNHX0UC2D'
             },
             {
                 id: 6,
-                name: 'Well Planner',
+                name: 'Well Planner | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2003/OP7Y138ZTQFFEVIB51'
             }
