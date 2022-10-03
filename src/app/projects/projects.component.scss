@@ -4,13 +4,10 @@
 }
 
 .header {
-    background: url('../../assets/images/about-dark.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
 
     .header-content {
         padding-top: 150px;
+        padding-bottom: 50px;
 
         >h1 {
             color: var(--white);

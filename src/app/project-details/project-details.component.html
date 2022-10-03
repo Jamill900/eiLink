@@ -1,7 +1,7 @@
 <div class="overall">
     <div *ngIf="project">
         <div class="component">
-            <div class="header">
+            <div class="header" style="background: url('{{ project.header }}') no-repeat; background-size: cover; background-position: center;">
                 <div class="header-content container">
                     <h1 data-aos="fade-right" data-aos-duration="600">{{ project.title }}</h1>
                 </div>
@@ -14,6 +14,10 @@
                 </div>
                 <div class="info" data-aos="fade-left" data-aos-duration="600">
                     <p>{{ project.description }}</p>
+                </div>
+                <div *ngIf="project.image" class=" container project-images">
+                    <img src="{{ project.image }}" alt="" width="100%">
+                    <img src="{{ project.photo }}" alt="" width="100%">
                 </div>
                 <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
                 <div class="details" data-aos="fade-left" data-aos-duration="600">
