@@ -15,9 +15,17 @@
                 <div class="info" data-aos="fade-left" data-aos-duration="600">
                     <p>{{ project.description }}</p>
                 </div>
-                <div *ngIf="project.image" class=" container project-images">
+                <div *ngIf="project.image && project.title != 'Yasamal Outcrop Study'" class=" container project-images">
                     <img src="{{ project.image }}" alt="" width="100%">
                     <img src="{{ project.photo }}" alt="" width="100%">
+                </div>
+                <div *ngIf="project.title == 'Yasamal Outcrop Study'" class=" container project-images">
+                    <img src="assets/images/projects/image3.jpg" alt="" width="100%">
+                    <img src="assets/images/projects/image4.jpg" alt="" width="100%">
+                    <img src="assets/images/projects/image5.jpg" alt="" width="100%">
+                    <img src="assets/images/projects/image6.jpg" alt="" width="100%">
+                    <img src="assets/images/projects/image8.jpg" alt="" width="100%">
+                    <img src="assets/images/projects/image9.jpg" alt="" width="100%">
                 </div>
                 <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
                 <div class="details" data-aos="fade-left" data-aos-duration="600">
