@@ -46,7 +46,13 @@
         text-align: justify;
         line-height: 30px;
         font-size: 17px;
+        width: 100%;
+        white-space: pre-line
     }
+}
+
+.project-caption {
+    padding-bottom: 40px;
 }
 
 .break {

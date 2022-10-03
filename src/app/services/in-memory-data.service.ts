@@ -12,44 +12,55 @@ export class InMemoryDataService implements InMemoryDbService {
                 author: 'eiLink',
                 cover: 'https://waterfountain.no/wp-content/uploads/2019/11/placeholder.png',
                 date: '25 June 2022',
-                title: 'Numerical simulations of surface water flows.',
-                description: 'Our innovative water management project helps ensure good yields, nutrient balance, and water protection and prevent water scarcity. The project aimed to contribute to higher level goals of sustaining natural resources, improving service delivery, increasing economic productivity and deal the water-related challenges posed by various factors. The project focused on the analysis of soil and climatic features of the Hajigabul-Padarchol farm area, the development of an initial simulation model of surface flows and floods in the mountainous area. Rainfall intensity has been analyzed based on climatic data of the last 40 years',
-                industry: 'Oil',
+                title: 'Estimation of water salinity distribution for ShahDeniz field.',
+                description: 'Formation of water salinity is important for understanding the hydrodynamic system in a sedimentary basin, including areas of hydraulic communication and isolation, and has implications for the prediction of formation pressure, characterization of hydrocarbon migration pathways, and estimating the risk of a trap being flushed. An unknown mechanism of formation water salinity distribution in Shahdeniz creates challenges from several aspects, as it impacts log resistivity readings, which results in erroneous saturation estimations. Among existing methods of predicting salinity, the most effective is a direct measurement of water resistivity or brine chemistry analysis. The pitfall of these methods is that they require core extraction from a well. Our product is able to predict formation water salinity using the available well data, as well as to understand the mechanism of salinity distribution and impacting factors like rock mineralogy, impact of ultra-dispersed particles (UDP), capillary pressure, dynamic disequilibrium, etc.',
+                industry: 'Data Science',
                 service: 'Image Recognition',
-                link: 'Oil'
+                link: 'Data Science'
             },
             {
                 id: 1,
                 author: 'eiLink',
-                cover: 'https://waterfountain.no/wp-content/uploads/2019/11/placeholder.png',
+                cover: 'assets/images/projects/project1.png',
                 date: '25 June 2022',
-                title: 'Estimation of water salinity distribution for ShahDeniz field.',
-                description: 'Formation of water salinity is important for understanding the hydrodynamic system in a sedimentary basin, including areas of hydraulic communication and isolation and has implications for the prediction of formation pressure, characterizing hydrocarbon migration pathways, and estimating the risk of a trap being flushed. Unknown mechanism of formation water salinity distribution in Shahdeniz creates challenges from several aspects, as it impacts log resistivity readings, which results in erroneous saturation estimations. Among existing methods of predicting salinity, the most effective is a direct measurement of water resistivity or brine chemistry analysis. The pitfall of these methods is that they require core extraction from a well. Our product able to predict formation water salinity using the available well data, as well as to understand the mechanism of salinity distribution, impacting factors, like rock mineralogy, impact of Ultra-Disperced particles (UDP), capillary pressure, dynamic disequilibrium, etc.',
-                industry: 'Oil',
-                service: 'Image Recognition',
-                link: 'Oil'
+                title: 'Prediction of Drilling risks (wellbore instability, losses, stuck pipes) using numerical techniques.',
+                description: 'Several types of challenges take place during drilling that include wellbore instability, stuck pipe, fluid losses, etc. Reasons associated with these problems are understood to some degree on a qualitative level, but it is unclear in which conditions the combination of different drilling and rock parameters results in a drilling issue. Additionally, no tool exists that can predict the risks prior to drilling. The goal of the project was to create a tool that can analyze all drilling parameters (ROP, RPM, PRESSPIPE, etc.) in combination with rock properties (V-shale, DEN) and PPFG data ( pore pressure, fracture pressure) and give a prediction of the probability of risk occurrence.',
+                industry: '',
+                service: '',
+                link: ''
             },
             {
                 id: 2,
                 author: 'eiLink',
-                cover: 'https://waterfountain.no/wp-content/uploads/2019/11/placeholder.png',
+                cover: 'assets/images/projects/project2.png',
                 date: '25 June 2022',
-                title: 'Prediction of Drilling risks (wellbore instability, losses, stuck pipes) using numerical techniques.',
-                description: 'Several types of challenges take place during drilling that include wellbore instability, stuck pipe, fluid losses, etc. Reasons associated with these problems are understood at some degree on a qualitative level, however it is unclear in which conditions the combination of different drilling and rock parameters results in a drilling issue.  Additionally, no tool exists that can predict the risks prior to drilling. The goal of the project was to create such a tool that can analyze all drilling parameters (ROP, RPM, PRESSPIPE, etc.) in combination with rock properties (V-shale, DEN) and PPFG data ( pore pressure, fracture pressure) and give a prediction of probability of risk occurrence.',
-                industry: 'Oil',
+                title: 'Annuli monitoring.',
+                description: 'Sustained casing pressure (SCP), defined as excessive casing pressure that constantly rebuilds after bleed-down, is undesirable and sometimes potentially dangerous for producing wells. It is a complicated phenomenon which cannot be described only with annulus pressure build-ups without integrated analysis of other parameters.\n\n We developed a tool to improve monitoring of annulus pressures and detection of build-ups with minimum input by engineers. The tool allows engineers to easily separate build-up events caused by downhole pressure and temperature effects and to pay more attention to specific problematic ones. In order to determine the relationship between different parameters, Pearson’s correlation coefficient has been used.\n\n In addition, the tool also demonstrates the relationship between downhole pressure of Cutting Re-Injection wells and B and C annuli of oil producing wells.\n\nOur tool minimizes the work done by engineers by giving information about potential build-ups for different time periods and increases success for well integrity with improved monitoring and detection. It reduces analysis time and makes it possible to track and analyze around 200 well annulus pressure measurements simultaneously.',
+                industry: 'Drilling & Well Integrity',
                 service: 'Image Recognition',
-                link: 'Oil'
+                link: 'Drilling & Well Integrity'
             },
             {
                 id: 3,
                 author: 'eiLink',
-                cover: 'https://waterfountain.no/wp-content/uploads/2019/11/placeholder.png',
+                cover: 'assets/images/projects/project3.png',
                 date: '25 June 2022',
-                title: 'Wax precipitation modelling using Perturbed Chain Statistical Associating Fluid Theory.',
-                description: 'Wax precipitation modeling was performed based on Perturbed Chain Statistical Associating Fluid Theory (PC-SAFT) thermodynamic model to estimate wax precipitation amount in oil and gas wells. The algorithm deploys real-time Distributed Temperature Sensing (DTS) data but also applicable for the wells without DTS since trained neural network model is incorporated for temperature approximation. The algorithm is scalable to other fluid properties and reservoir conditions due to automatic calibration of model parameters provided with available experimental PVT data. Outputs of the product were validated on 80 oil wells of the South Caspian Basin and allowed the operator to increase reliability of production operations.',
-                industry: 'Oil',
-                service: 'Image Recognition',
-                link: 'Oil'
+                title: '(Agrodairy) Water supply for irrigation in Padarchol area: assessment of rainwater and groundwater potential.',
+                description: 'The framework of the project was to solve the problem of irrigation in the Hajigabul irrigation area by evaluating subsurface freshwater reserves potential and the use of runoff water from surface flooding events.\n\n The projects’ objectives were the analysis of the soil and climate characteristics in terms of agriculture and surface water resources, using Geographical Information Systems and climate and precipitation intensity data of the last 40 years of the Hajigabul-Padarchol agricultural area, and the preliminary analysis of surface flows and flood events formed in the mountainous area. It consists of research work on the preparation of a 3D simulation model, the preliminary analysis of groundwater and the study of irrigation potential. The groundwater potential of the area was investigated considering the geological background of the surrounding area and logging data from several exploration wells available near the target area.\n\n Significant water reserves have been found in depths below 300 meters. The water due to the geological setting is considered saline and unconfined, so the new well drilling, water extraction using pumps and desalination costs have been estimated. The chemical content of the runoff water coming from the nearby mud volcano is considered unsafe to use for irrigation purposes, and it is proposed to redirect the channels coming from that area, which will increase the productivity of the actual irrigation lands. A 3D topographical model, as well as a flooding event simulation, have been created by the BSU researchers. The amount of average rain precipitation has been estimated and forecasted with detailed probability statistics. With water collected from flooding, 150 hectares of arable land can be provided with irrigation water. In order to collect rainwater, 5–6 ponds with a useful volume of 120–180 thousand cubic meters each should be created. A system of catchment canals with a total length of 80 km should be established to direct rainwater to the ponds. Considering the geometry of the land, the flood water management map has been created.',
+                industry: 'Computational Fluid Dynamics',
+                service: '',
+                link: 'Computational Fluid Dynamics'
+            },
+            {
+                id: 4,
+                author: 'eiLink',
+                cover: 'assets/images/projects/project4.png',
+                date: '25 June 2022',
+                title: 'Shale compaction modeling study in the South Caspian basin.',
+                description: 'The South Caspian Basin (SCB) is a young basin with a sedimentary rock column up to 25 km thick. High sedimentation rates, combined with other factors, resulted in abnormally high pore pressures, particularly in shales, over the last 5 million years. Understanding the nature and distribution of overpressure is a critical issue in exploration and reservoir engineering concepts, as well as drilling and completion operations. This project investigates the relationship between the effective stress and porosity in the shales of the Productive Series and how it is affected by the shale volume. Two disequilibrium compaction models, one proposed by Aplin et.al. (1995), and the second by Schneider et. al.  (1994) were tested in the SCB for the first time.',
+                industry: 'Geology & Geophysics',
+                service: '',
+                link: 'Geology & Geophysics'
             }
         ];
 
