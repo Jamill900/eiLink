@@ -38,8 +38,8 @@ export class InMemoryDataService implements InMemoryDbService {
             {
                 id: 2,
                 author: 'eiLink',
-                cover: 'https://waterfountain.no/wp-content/uploads/2019/11/placeholder.png',
-                header: 'assets/images/about-dark.jpg',
+                cover: 'assets/images/projects/project.jpg',
+                header: 'assets/images/projects/projectheader.png',
                 date: '8 January 2021',
                 title: 'Estimation of water salinity distribution for ShahDeniz field',
                 description: 'Formation of water salinity is important for understanding the hydrodynamic system in a sedimentary basin, including areas of hydraulic communication and isolation, and has implications for the prediction of formation pressure, characterization of hydrocarbon migration pathways, and estimating the risk of a trap being flushed. An unknown mechanism of formation water salinity distribution in Shahdeniz creates challenges from several aspects, as it impacts log resistivity readings, which results in erroneous saturation estimations. Among existing methods of predicting salinity, the most effective is a direct measurement of water resistivity or brine chemistry analysis. The pitfall of these methods is that they require core extraction from a well. Our product is able to predict formation water salinity using the available well data, as well as to understand the mechanism of salinity distribution and impacting factors like rock mineralogy, impact of ultra-dispersed particles (UDP), capillary pressure, dynamic disequilibrium, etc.',
