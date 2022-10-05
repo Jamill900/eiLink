@@ -39,12 +39,15 @@
     }
 }
 
-.popup {
-    transform: scale(1.6);
+@media screen and (min-width: 1230px) {
+    .popup {
+        transform: scale(1.6);
+    }
 }
 
 .info {
     text-align: center;
+
     p {
         text-align: justify;
         line-height: 30px;
@@ -52,6 +55,7 @@
         width: 100%;
         white-space: pre-line
     }
+
     img {
         max-width: 800px;
     }
