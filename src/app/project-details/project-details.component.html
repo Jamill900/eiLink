@@ -10,19 +10,19 @@
             <div class="section-break"></div>
             <div class="container project-caption" id="all"
                 *ngIf="project.id != 1 && project.id != 2 && project.id != 3">
-                <div class="tags" data-aos="fade-left" data-aos-duration="600">
+                <div class="tags">
                     <span *ngIf="project.industry">{{ project.industry }}</span>
                     <span *ngIf="project.service">{{ project.service }}</span>
                 </div>
-                <div class="info" data-aos="fade-left" data-aos-duration="600">
+                <div class="info">
                     <p>{{ project.description }}</p>
                 </div>
                 <div *ngIf="project.image" class=" container project-images">
                     <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="{{ project.image }}" alt="" width="100%">
                     <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="{{ project.photo }}" alt="" width="100%">
                 </div>
-                <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
-                <div class="details" data-aos="fade-left" data-aos-duration="600">
+                <div class="break"></div>
+                <div class="details">
                     <div class="author">
                         <h6>Author</h6>
                         <span>{{ project.author }}</span>
@@ -34,11 +34,11 @@
                 </div>
             </div>
             <div class="container project-caption" *ngIf="project.id == 1">
-                <div class="tags" data-aos="fade-left" data-aos-duration="600">
+                <div class="tags">
                     <span *ngIf="project.industry">{{ project.industry }}</span>
                     <span *ngIf="project.service">{{ project.service }}</span>
                 </div>
-                <div class="info" data-aos="fade-left" data-aos-duration="600">
+                <div class="info">
                     <p>It is common during field development that certain areas of the structure, while containing
                         appreciable oil and gas reserves, are complicated and negatively affected by certain geological
                         features. Sometimes, vital information regarding reservoir properties and characterization is
@@ -71,7 +71,7 @@
                     </p>
                     <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/image3.jpg" alt="" width="100%">
                     <br><br><br>
-                    <img [ngClass]="{'popup' : isActive[2]}" (click)="popup(2)" src="assets/images/projects/image4a.jpg" alt="" width="320px">
+                    <img [ngClass]="{'popup' : isActive[2]}" (click)="popup(2)" src="assets/images/projects/image4a.jpg" alt="" width="100%">
                     <br>
                     <br>
                     <p>The objective of the outcrop study during the first phase of the project was to acquire abundant
@@ -120,8 +120,8 @@
                         honor the subsurface data from wells drilled in this part of the DWG area.
                     </p>
                 </div>
-                <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
-                <div class="details" data-aos="fade-left" data-aos-duration="600">
+                <div class="break"></div>
+                <div class="details">
                     <div class="author">
                         <h6>Author</h6>
                         <span>{{ project.author }}</span>
@@ -133,11 +133,11 @@
                 </div>
             </div>
             <div class="container project-caption" *ngIf="project.id == 2">
-                <div class="tags" data-aos="fade-left" data-aos-duration="600">
+                <div class="tags">
                     <span *ngIf="project.industry">{{ project.industry }}</span>
                     <span *ngIf="project.service">{{ project.service }}</span>
                 </div>
-                <div class="info" data-aos="fade-left" data-aos-duration="600">
+                <div class="info">
                     <p>Estimation of the recovery factor from structurally deformed areas is a challenging process due
                         to the high number of unknown parameters. These features are of subseismic scale, which are
                         usually observed in sandstones and tend to deteriorate rock properties.
@@ -150,17 +150,17 @@
                         which was the main target area during the study.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project5photo.jpg" alt="">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project5photo.jpg" alt="" width="100%">
                     <br><br>
                     <p>Quantifying the impact of deformed rocks is very significant in estimating overall sweep
                         efficiency as well as interpreting dynamic parameter behaviour.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/project5image.jpg" alt="">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/project5image.jpg" alt="" width="100%">
                     <br><br>
                 </div>
-                <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
-                <div class="details" data-aos="fade-left" data-aos-duration="600">
+                <div class="break"></div>
+                <div class="details">
                     <div class="author">
                         <h6>Author</h6>
                         <span>{{ project.author }}</span>
@@ -172,11 +172,11 @@
                 </div>
             </div>
             <div class="container project-caption" *ngIf="project.id == 3">
-                <div class="tags" data-aos="fade-left" data-aos-duration="600">
+                <div class="tags">
                     <span *ngIf="project.industry">{{ project.industry }}</span>
                     <span *ngIf="project.service">{{ project.service }}</span>
                 </div>
-                <div class="info" data-aos="fade-left" data-aos-duration="600">
+                <div class="info">
                     <p>The framework of the project was to solve the problem of irrigation in the Hajigabul irrigation
                         area by evaluating subsurface freshwater reserves potential and the use of runoff water from
                         surface flooding events.
@@ -191,7 +191,7 @@
                         data from several exploration wells available near the target area.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project3photo.png" alt="">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project3photo.png" alt="" width="100%">
                     <br><br>
                     <p>Significant water reserves have been found in depths below 300 meters. The water due to the
                         geological setting is considered saline and unconfined, so the new well drilling, water
@@ -211,8 +211,8 @@
                     <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/project3image.png" alt="">
                     <br><br>
                 </div>
-                <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
-                <div class="details" data-aos="fade-left" data-aos-duration="600">
+                <div class="break"></div>
+                <div class="details">
                     <div class="author">
                         <h6>Author</h6>
                         <span>{{ project.author }}</span>
