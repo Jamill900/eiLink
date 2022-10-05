@@ -18,8 +18,8 @@
                     <p>{{ project.description }}</p>
                 </div>
                 <div *ngIf="project.image" class=" container project-images">
-                    <img src="{{ project.image }}" alt="" width="100%">
-                    <img src="{{ project.photo }}" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="{{ project.image }}" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="{{ project.photo }}" alt="" width="100%">
                 </div>
                 <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
                 <div class="details" data-aos="fade-left" data-aos-duration="600">
@@ -55,7 +55,7 @@
                         an economically viable field development plan.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/image6.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/image6.jpg" alt="" width="100%">
                     <p><br><br>
                         In the scenarios mentioned above, outcrop analog studies may help significantly enhance the
                         subsurface understanding and help build a successful field development strategy. They can serve
@@ -69,9 +69,9 @@
                         campaign was the Yasamal Analogue Outcrop Study done by the eiLink Team.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/image3.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/image3.jpg" alt="" width="100%">
                     <br><br><br>
-                    <img src="assets/images/projects/image4a.jpg" alt="" width="320px">
+                    <img [ngClass]="{'popup' : isActive[2]}" (click)="popup(2)" src="assets/images/projects/image4a.jpg" alt="" width="320px">
                     <br>
                     <br>
                     <p>The objective of the outcrop study during the first phase of the project was to acquire abundant
@@ -90,9 +90,9 @@
                         acquisition tool.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/image4b.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[3]}" (click)="popup(3)" src="assets/images/projects/image4b.jpg" alt="" width="100%">
                     <br><br><br>
-                    <img src="assets/images/projects/image8.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[4]}" (click)="popup(4)" src="assets/images/projects/image8.jpg" alt="" width="100%">
                     <br><br>
                     <p>Then, during the second phase of the project, the focus was to QC the acquired data and use it to
                         come up with an essential geological analysis. The main objective was to observe what controls
@@ -108,7 +108,7 @@
                         due to tools reading inadequate information.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/image5.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[5]}" (click)="popup(5)" src="assets/images/projects/image5.jpg" alt="" width="100%">
                     <br><br>
                     <p>The impact of this project was that vital geological insights and conclusions were drawn and used
                         for the future reservoir characterization of the steeply dipping North Limb of the DWG
@@ -150,13 +150,13 @@
                         which was the main target area during the study.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/project5photo.jpg" alt="">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project5photo.jpg" alt="">
                     <br><br>
                     <p>Quantifying the impact of deformed rocks is very significant in estimating overall sweep
                         efficiency as well as interpreting dynamic parameter behaviour.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/project5image.jpg" alt="">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/project5image.jpg" alt="">
                     <br><br>
                 </div>
                 <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
@@ -191,7 +191,7 @@
                         data from several exploration wells available near the target area.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/project3photo.png" alt="">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project3photo.png" alt="">
                     <br><br>
                     <p>Significant water reserves have been found in depths below 300 meters. The water due to the
                         geological setting is considered saline and unconfined, so the new well drilling, water
@@ -208,7 +208,7 @@
                         water management map has been created.
                         <br><br>
                     </p>
-                    <img src="assets/images/projects/project3image.png" alt="">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/project3image.png" alt="">
                     <br><br>
                 </div>
                 <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
