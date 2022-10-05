@@ -24,6 +24,20 @@ export class InMemoryDataService implements InMemoryDbService {
             {
                 id: 1,
                 author: 'eiLink',
+                cover: 'assets/images/projects/project6.jpg',
+                header: 'assets/images/projects/project6header.png',
+                date: '20 May 2019',
+                title: 'Yasamal Outcrop Study',
+                description: 'It is common during field development that certain areas of the structure, while containing appreciable oil and gas reserves, are complicated and negatively affected by certain geological features. Sometimes, vital information regarding reservoir properties and characterization is difficult or impossible to obtain from these regions for various reasons, which may include:\n\n 1. The scale of these geological features is below conventional well log resolution, requiring complex core acquisition or other expensive petrophysical techniques.\n 2. Drilling these geological regions is too expensive for the uncertainty associated with the reservoir properties degradation caused by these geological features.\n 3. The spatial distribution of such geological features is too complex to understand and design an economically viable field development plan.\n\n In the scenarios mentioned above, outcrop analog studies may help significantly enhance the subsurface understanding and help build a successful field development strategy. They can serve as a starting point toward characterization of reservoirs without spending much money on expensive data acquisition and surveillance.\n\n In the Deep Water Gunashli (DWG) oil field, the complex, steeply dipping northern limb of the structure has historically been underdeveloped due to the presence of severe reservoir properties degradation associated with deformation bands. Recently, an appraisal campaign has been launched to understand the reservoir potential in this area. The vital part of this campaign was the Yasamal Analogue Outcrop Study done by the eiLink Team.\n\n The objective of the outcrop study during the first phase of the project was to acquire abundant geological information, including:\n\n 1. Dip angle/dip azimuth measurements along and across the stratigraphy using a field compass.\n 2. Distribution and number of deformation bands per unit area.\n 3. Gamma Ray log across the stratigraphy using a portable Gamma Ray tool.\n 4. Permeability measurements from deformed and undeformed rocks using portable permeameters.\n 5. Collection of numerous core plugs was acquired for further XRD analysis using a portable core acquisition tool.\n\n Then, during the second phase of the project, the focus was to QC the acquired data and use it to come up with an essential geological analysis. The main objective was to observe what controls the presence and distribution of deformation bands in the outcrops. Finally, a similar analysis was made using subsurface data acquired from wells drilled in similar geological settings within the DWG structure with the aim to compare observations between outcrop and subsurface data.\n\n To achieve the above-mentioned objectives, the acquisition of data was done, ensuring the most representative data was acquired. For instance, only steeply dipping regions of the outcrop were chosen as study locations, where data was mainly acquired along stratigraphy to mimic the subsurface setting. Prior to acquiring the data, the outcrop was cleaned from dust and other undesirable material to ensure accuracy. The tools were calibrated such that no errors were made due to tools reading inadequate information.\n\n The impact of this project was that vital geological insights and conclusions were drawn and used for the future reservoir characterization of the steeply dipping North Limb of the DWG structure. For instance, it was observed that there is a cut-off value of the Vshale derived from the GR log, indicating the presence of deformation bands as a function of shale content. Also, there is a good relationship between dip angle (which can be viewed as a proxy for how much deformation rocks have been exposed to) and the distribution of deformation bands per unit area. Finally, it was observed that broadly, the conclusions drawn in the outcrop environment honor the subsurface data from wells drilled in this part of the DWG area.',
+                industry: 'Geology & Geophysics',
+                service: '',
+                link: 'Geology & Geophysics',
+                image: 'assets/images/projects/project4image.jpg',
+                photo: ''
+            },
+            {
+                id: 2,
+                author: 'eiLink',
                 cover: 'assets/images/projects/project5.png',
                 header: 'assets/images/projects/project5.png',
                 date: '1 September 2019',
@@ -36,7 +50,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 photo: 'assets/images/projects/project5photo.jpg'
             },
             {
-                id: 2,
+                id: 3,
                 author: 'eiLink',
                 cover: 'assets/images/projects/project3.png',
                 header: 'assets/images/projects/project3header.png',
@@ -50,7 +64,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 photo: 'assets/images/projects/project3photo.png'
             },
             {
-                id: 3,
+                id: 4,
                 author: 'eiLink',
                 cover: 'assets/images/projects/project7.jpg',
                 header: 'assets/images/projects/project7header.png',
@@ -64,7 +78,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 photo: ''
             },
             {
-                id: 4,
+                id: 5,
                 author: 'eiLink',
                 cover: 'assets/images/projects/project.jpg',
                 header: 'assets/images/projects/projectheader.png',
@@ -78,7 +92,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 photo: ''
             },
             {
-                id: 5,
+                id: 6,
                 author: 'eiLink',
                 cover: 'assets/images/projects/project1.png',
                 header: 'assets/images/projects/project1header.png',
@@ -92,25 +106,11 @@ export class InMemoryDataService implements InMemoryDbService {
                 photo: ''
             },
             {
-                id: 6,
-                author: 'eiLink',
-                cover: 'assets/images/projects/project6.jpg',
-                header: 'assets/images/projects/project6header.png',
-                date: '3 October 2022',
-                title: 'Yasamal Outcrop Study',
-                description: 'It is common during field development that certain areas of the structure, while containing appreciable oil and gas reserves, are complicated and negatively affected by certain geological features. Sometimes, vital information regarding reservoir properties and characterization is difficult or impossible to obtain from these regions for various reasons, which may include:\n\n 1. The scale of these geological features is below conventional well log resolution, requiring complex core acquisition or other expensive petrophysical techniques.\n 2. Drilling these geological regions is too expensive for the uncertainty associated with the reservoir properties degradation caused by these geological features.\n 3. The spatial distribution of such geological features is too complex to understand and design an economically viable field development plan.\n\n In the scenarios mentioned above, outcrop analog studies may help significantly enhance the subsurface understanding and help build a successful field development strategy. They can serve as a starting point toward characterization of reservoirs without spending much money on expensive data acquisition and surveillance.\n\n In the Deep Water Gunashli (DWG) oil field, the complex, steeply dipping northern limb of the structure has historically been underdeveloped due to the presence of severe reservoir properties degradation associated with deformation bands. Recently, an appraisal campaign has been launched to understand the reservoir potential in this area. The vital part of this campaign was the Yasamal Analogue Outcrop Study done by the eiLink Team.\n\n The objective of the outcrop study during the first phase of the project was to acquire abundant geological information, including:\n\n 1. Dip angle/dip azimuth measurements along and across the stratigraphy using a field compass.\n 2. Distribution and number of deformation bands per unit area.\n 3. Gamma Ray log across the stratigraphy using a portable Gamma Ray tool.\n 4. Permeability measurements from deformed and undeformed rocks using portable permeameters.\n 5. Collection of numerous core plugs was acquired for further XRD analysis using a portable core acquisition tool.\n\n Then, during the second phase of the project, the focus was to QC the acquired data and use it to come up with an essential geological analysis. The main objective was to observe what controls the presence and distribution of deformation bands in the outcrops. Finally, a similar analysis was made using subsurface data acquired from wells drilled in similar geological settings within the DWG structure with the aim to compare observations between outcrop and subsurface data.\n\n To achieve the above-mentioned objectives, the acquisition of data was done, ensuring the most representative data was acquired. For instance, only steeply dipping regions of the outcrop were chosen as study locations, where data was mainly acquired along stratigraphy to mimic the subsurface setting. Prior to acquiring the data, the outcrop was cleaned from dust and other undesirable material to ensure accuracy. The tools were calibrated such that no errors were made due to tools reading inadequate information.\n\n The impact of this project was that vital geological insights and conclusions were drawn and used for the future reservoir characterization of the steeply dipping North Limb of the DWG structure. For instance, it was observed that there is a cut-off value of the Vshale derived from the GR log, indicating the presence of deformation bands as a function of shale content. Also, there is a good relationship between dip angle (which can be viewed as a proxy for how much deformation rocks have been exposed to) and the distribution of deformation bands per unit area. Finally, it was observed that broadly, the conclusions drawn in the outcrop environment honor the subsurface data from wells drilled in this part of the DWG area.',
-                industry: 'Geology & Geophysics',
-                service: '',
-                link: 'Geology & Geophysics',
-                image: 'assets/images/projects/project4image.jpg',
-                photo: ''
-            },
-            {
                 id: 7,
                 author: 'eiLink',
                 cover: 'assets/images/projects/project2.png',
                 header: 'assets/images/projects/project2header.png',
-                date: '3 October 2022',
+                date: 'Ongoing (05/10/2022)',
                 title: 'Annuli monitoring',
                 description: 'Sustained casing pressure (SCP), defined as excessive casing pressure that constantly rebuilds after bleed-down, is undesirable and sometimes potentially dangerous for producing wells. It is a complicated phenomenon which cannot be described only with annulus pressure build-ups without integrated analysis of other parameters.\n\n We developed a tool to improve monitoring of annulus pressures and detection of build-ups with minimum input by engineers. The tool allows engineers to easily separate build-up events caused by downhole pressure and temperature effects and to pay more attention to specific problematic ones. In order to determine the relationship between different parameters, Pearson’s correlation coefficient has been used.\n\n In addition, the tool also demonstrates the relationship between downhole pressure of Cutting Re-Injection wells and B and C annuli of oil producing wells.\n\nOur tool minimizes the work done by engineers by giving information about potential build-ups for different time periods and increases success for well integrity with improved monitoring and detection. It reduces analysis time and makes it possible to track and analyze around 200 well annulus pressure measurements simultaneously.',
                 industry: 'Drilling & Well Integrity',

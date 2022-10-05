@@ -1,13 +1,15 @@
 <div class="overall">
     <div *ngIf="project">
         <div class="component">
-            <div class="header" style="background: url('{{ project.header }}') no-repeat; background-size: cover; background-position: center;">
+            <div class="header"
+                style="background: url('{{ project.header }}') no-repeat; background-size: cover; background-position: center;">
                 <div class="header-content container">
                     <h1 data-aos="fade-right" data-aos-duration="600">{{ project.title }}</h1>
                 </div>
             </div>
             <div class="section-break"></div>
-            <div class="container project-caption">
+            <div class="container project-caption" id="all"
+                *ngIf="project.id != 1 && project.id != 2 && project.id != 3">
                 <div class="tags" data-aos="fade-left" data-aos-duration="600">
                     <span *ngIf="project.industry">{{ project.industry }}</span>
                     <span *ngIf="project.service">{{ project.service }}</span>
@@ -15,17 +17,199 @@
                 <div class="info" data-aos="fade-left" data-aos-duration="600">
                     <p>{{ project.description }}</p>
                 </div>
-                <div *ngIf="project.image && project.title != 'Yasamal Outcrop Study'" class=" container project-images">
+                <div *ngIf="project.image" class=" container project-images">
                     <img src="{{ project.image }}" alt="" width="100%">
                     <img src="{{ project.photo }}" alt="" width="100%">
                 </div>
-                <div *ngIf="project.title == 'Yasamal Outcrop Study'" class=" container project-images">
-                    <img src="assets/images/projects/image3.jpg" alt="" width="100%">
-                    <img src="assets/images/projects/image4.jpg" alt="" width="100%">
-                    <img src="assets/images/projects/image5.jpg" alt="" width="100%">
+                <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
+                <div class="details" data-aos="fade-left" data-aos-duration="600">
+                    <div class="author">
+                        <h6>Author</h6>
+                        <span>{{ project.author }}</span>
+                    </div>
+                    <div class="date">
+                        <h6>Date</h6>
+                        <span>{{ project.date }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container project-caption" *ngIf="project.id == 1">
+                <div class="tags" data-aos="fade-left" data-aos-duration="600">
+                    <span *ngIf="project.industry">{{ project.industry }}</span>
+                    <span *ngIf="project.service">{{ project.service }}</span>
+                </div>
+                <div class="info" data-aos="fade-left" data-aos-duration="600">
+                    <p>It is common during field development that certain areas of the structure, while containing
+                        appreciable oil and gas reserves, are complicated and negatively affected by certain geological
+                        features. Sometimes, vital information regarding reservoir properties and characterization is
+                        difficult or impossible to obtain from these regions for various reasons, which may
+                        include:
+                        <br><br>
+                        1. The scale of these geological features is below conventional well log resolution, requiring
+                        complex core acquisition or other expensive petrophysical techniques;
+                        <br>
+                        2. Drilling these geological regions is too expensive for the uncertainty associated with the
+                        reservoir properties degradation caused by these geological features;
+                        <br>
+                        3. The spatial distribution of such geological features is too complex to understand and design
+                        an economically viable field development plan.
+                        <br><br>
+                    </p>
                     <img src="assets/images/projects/image6.jpg" alt="" width="100%">
+                    <p><br><br>
+                        In the scenarios mentioned above, outcrop analog studies may help significantly enhance the
+                        subsurface understanding and help build a successful field development strategy. They can serve
+                        as a starting point toward characterization of reservoirs without spending much money on
+                        expensive data acquisition and surveillance. 
+                        <br><br>
+                        In the Deep Water Gunashli (DWG) oil field, the complex, steeply dipping northern limb of the
+                        structure has historically been underdeveloped due to the presence of severe reservoir
+                        properties degradation associated with deformation bands. Recently, an appraisal campaign has
+                        been launched to understand the reservoir potential in this area. The vital part of this
+                        campaign was the Yasamal Analogue Outcrop Study done by the eiLink Team.
+                        <br><br>
+                    </p>
+                    <img src="assets/images/projects/image3.jpg" alt="" width="100%">
+                    <br><br><br>
+                    <img src="assets/images/projects/image4a.jpg" alt="" width="320px">
+                    <br>
+                    <br>
+                    <p>The objective of the outcrop study during the first phase of the project was to acquire abundant
+                        geological information, including:
+                        <br><br>
+                        · Dip angle/dip azimuth measurements along and across the stratigraphy using a field
+                        compass;
+                        <br>
+                        · Distribution and number of deformation bands per unit area;
+                        <br>
+                        · Gamma Ray log across the stratigraphy using a portable Gamma Ray tool;
+                        <br>
+                        · Permeability measurements from deformed and undeformed rocks using portable permeameters;
+                        <br>
+                        · Collection of numerous core plugs was acquired for further XRD analysis using a portable core
+                        acquisition tool.
+                        <br><br>
+                    </p>
+                    <img src="assets/images/projects/image4b.jpg" alt="" width="100%">
+                    <br><br><br>
                     <img src="assets/images/projects/image8.jpg" alt="" width="100%">
-                    <img src="assets/images/projects/image9.jpg" alt="" width="100%">
+                    <br><br>
+                    <p>Then, during the second phase of the project, the focus was to QC the acquired data and use it to
+                        come up with an essential geological analysis. The main objective was to observe what controls
+                        the presence and distribution of deformation bands in the outcrops. Finally, a similar analysis
+                        was made using subsurface data acquired from wells drilled in similar geological settings within
+                        the DWG structure with the aim to compare observations between outcrop and subsurface data.
+                        <br><br>
+                        To achieve the above-mentioned objectives, the acquisition of data was done, ensuring the most
+                        representative data was acquired. For instance, only steeply dipping regions of the outcrop were
+                        chosen as study locations, where data was mainly acquired along stratigraphy to mimic the
+                        subsurface setting. Prior to acquiring the data, the outcrop was cleaned from dust and other
+                        undesirable material to ensure accuracy. The tools were calibrated such that no errors were made
+                        due to tools reading inadequate information.
+                        <br><br>
+                    </p>
+                    <img src="assets/images/projects/image5.jpg" alt="" width="100%">
+                    <br><br>
+                    <p>The impact of this project was that vital geological insights and conclusions were drawn and used
+                        for the future reservoir characterization of the steeply dipping North Limb of the DWG
+                        structure. For instance, it was observed that there is a cut-off value of the Vshale derived
+                        from the GR log, indicating the presence of deformation bands as a function of shale content.
+                        Also, there is a good relationship between dip angle (which can be viewed as a proxy for how
+                        much deformation rocks have been exposed to) and the distribution of deformation bands per unit
+                        area. Finally, it was observed that broadly, the conclusions drawn in the outcrop environment
+                        honor the subsurface data from wells drilled in this part of the DWG area.
+                    </p>
+                </div>
+                <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
+                <div class="details" data-aos="fade-left" data-aos-duration="600">
+                    <div class="author">
+                        <h6>Author</h6>
+                        <span>{{ project.author }}</span>
+                    </div>
+                    <div class="date">
+                        <h6>Date</h6>
+                        <span>{{ project.date }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container project-caption" *ngIf="project.id == 2">
+                <div class="tags" data-aos="fade-left" data-aos-duration="600">
+                    <span *ngIf="project.industry">{{ project.industry }}</span>
+                    <span *ngIf="project.service">{{ project.service }}</span>
+                </div>
+                <div class="info" data-aos="fade-left" data-aos-duration="600">
+                    <p>Estimation of the recovery factor from structurally deformed areas is a challenging process due
+                        to the high number of unknown parameters. These features are of subseismic scale, which are
+                        usually observed in sandstones and tend to deteriorate rock properties.
+                        <br><br>
+                        The goal is to build a 3D simulation model of the Yasamal sandstone layer with the distribution
+                        of deformation bands and evaluate their impact on fluid flow, recovery factor, and percentage of
+                        poorly swept grid cells. This approach is recognized as valid since the rocks of Yasamal
+                        Valley’s outcrops are accepted as analogous to the formations of offshore fields in the South
+                        Caspian Basin. Patterns of deformation bands are met at the East Limb of Yasamal structure,
+                        which was the main target area during the study.
+                        <br><br>
+                    </p>
+                    <img src="assets/images/projects/project5photo.jpg" alt="">
+                    <br><br>
+                    <p>Quantifying the impact of deformed rocks is very significant in estimating overall sweep
+                        efficiency as well as interpreting dynamic parameter behaviour.
+                        <br><br>
+                    </p>
+                    <img src="assets/images/projects/project5image.jpg" alt="">
+                    <br><br>
+                </div>
+                <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
+                <div class="details" data-aos="fade-left" data-aos-duration="600">
+                    <div class="author">
+                        <h6>Author</h6>
+                        <span>{{ project.author }}</span>
+                    </div>
+                    <div class="date">
+                        <h6>Date</h6>
+                        <span>{{ project.date }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container project-caption" *ngIf="project.id == 3">
+                <div class="tags" data-aos="fade-left" data-aos-duration="600">
+                    <span *ngIf="project.industry">{{ project.industry }}</span>
+                    <span *ngIf="project.service">{{ project.service }}</span>
+                </div>
+                <div class="info" data-aos="fade-left" data-aos-duration="600">
+                    <p>The framework of the project was to solve the problem of irrigation in the Hajigabul irrigation
+                        area by evaluating subsurface freshwater reserves potential and the use of runoff water from
+                        surface flooding events.
+                        <br><br>
+                        The projects’ objectives were the analysis of the soil and climate characteristics in terms of
+                        agriculture and surface water resources, using Geographical Information Systems and climate and
+                        precipitation intensity data of the last 40 years of the Hajigabul-Padarchol agricultural area,
+                        and the preliminary analysis of surface flows and flood events formed in the mountainous area.
+                        It consists of research work on the preparation of a 3D simulation model, the preliminary
+                        analysis of groundwater and the study of irrigation potential. The groundwater potential of the
+                        area was investigated considering the geological background of the surrounding area and logging
+                        data from several exploration wells available near the target area.
+                        <br><br>
+                    </p>
+                    <img src="assets/images/projects/project3photo.png" alt="">
+                    <br><br>
+                    <p>Significant water reserves have been found in depths below 300 meters. The water due to the
+                        geological setting is considered saline and unconfined, so the new well drilling, water
+                        extraction using pumps and desalination costs have been estimated. The chemical content of the
+                        runoff water coming from the nearby mud volcano is considered unsafe to use for irrigation
+                        purposes, and it is proposed to redirect the channels coming from that area, which will increase
+                        the productivity of the actual irrigation lands. A 3D topographical model, as well as a flooding
+                        event simulation, have been created by the BSU researchers. The amount of average rain
+                        precipitation has been estimated and forecasted with detailed probability statistics. With water
+                        collected from flooding, 150 hectares of arable land can be provided with irrigation water. In
+                        order to collect rainwater, 5–6 ponds with a useful volume of 120–180 thousand cubic meters each
+                        should be created. A system of catchment canals with a total length of 80 km should be
+                        established to direct rainwater to the ponds. Considering the geometry of the land, the flood
+                        water management map has been created.
+                        <br><br>
+                    </p>
+                    <img src="assets/images/projects/project3image.png" alt="">
+                    <br><br>
                 </div>
                 <div class="break" data-aos="fade-left" data-aos-duration="600"></div>
                 <div class="details" data-aos="fade-left" data-aos-duration="600">

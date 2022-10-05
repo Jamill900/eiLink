@@ -40,12 +40,16 @@
 }
 
 .info {
+    text-align: center;
     p {
         text-align: justify;
         line-height: 30px;
         font-size: 17px;
         width: 100%;
         white-space: pre-line
+    }
+    img {
+        max-width: 800px;
     }
 }
 
