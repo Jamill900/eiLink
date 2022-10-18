@@ -228,55 +228,48 @@ export class InMemoryDataService implements InMemoryDbService {
             },
             {
                 id: 4,
-                name: 'Turan Eminbeyli',
-                position: 'Researcher',
-                info: 'Turan graduated from Azerbaijan State Oil Academy with bachelor’s degree in Petroleum Geology. Prior to joining eiLink he spent 10 years as a geologist for international oil companies. He is responsible for delivering industry-demanding research products in the areas of Oil & Gas Exploration, Appraisal and Production.',
-                cover: 'assets/images/team/turan.jpeg'
-            },
-            {
-                id: 5,
                 name: 'Ruslan Malikov',
                 position: 'Junior Researcher',
                 info: 'Ruslan graduated with a bachelor’s degree in Geophysical Engineering from French-Azerbaijan University. He started his journey with eiLink while being a student as a research assistant. After a lot of hard work, dedication, and time of growth, he became a junior researcher at eiLink. His research areas include Seismic Inversion and Processing, Signal Processing, Data Analysis, Software Development, and the application of Machine Learning.',
                 cover: 'assets/images/team/ruslan.jpg'
             },
             {
-                id: 6,
+                id: 5,
                 name: 'Ramil Mamishov',
                 position: 'Junior Researcher',
                 info: 'Ramil holds a BS degree in Engineering from both Baku Higher Oil School and Heriot-Watt University.',
                 cover: 'assets/images/team/ramil.jpg'
             },
             {
-                id: 7,
+                id: 6,
                 name: 'Gunel Rzayeva',
                 position: 'Junior Researcher',
                 info: 'After completing her master’s degree in oil and gas engineering from the University of Aberdeen, Gunel started to work at Baku Engineering University. While working as a lecturer at the university, she joined eiLink as a researcher. Her solid mathematical problem-solving techniques and engineering training help her work on eiLink projects.',
                 cover: 'assets/images/team/gunel.jpg'
             },
             {
-                id: 8,
+                id: 7,
                 name: 'Elmir Abilov',
                 position: 'Junior Researcher',
                 info: 'Elmir graduated with a Master of Science degree in Energy Resources and Petroleum Engineering from King Abdullah University of Science and Technology of Saudi Arabia and with a Bachelor’s degree in Petroleum Engineering from Baku Higher Oil School and Heriot-Watt University. At eiLink, his focus is developing solutions in Oil&Gas Production.',
                 cover: 'assets/images/team/elmir.jpg'
             },
             {
-                id: 9,
+                id: 8,
                 name: 'Tatyana Yeleskina',
                 position: 'Junior Researcher',
                 info: 'Tatyana has a BS degree in Physics from Moscow State University Baku Branch. While being a student, she joined eiLink team as a research assistant. Particularly here, her research area is concentrated on the development of physical models for different industrial inversion problems, signal processing, data science, and statistics.',
                 cover: 'assets/images/team/tatyana.jpg'
             },
             {
-                id: 10,
+                id: 9,
                 name: 'Fidan Karimova',
                 position: 'Research Assistant',
                 info: 'Fidan graduated with a bachelor’s degree in Computer Science from French-Azerbaijani University. She started her professional experience as a research assistant at eiLink while she was still a student. Her research areas focus mainly on Data Analysis, Remote Sensing, and Machine Learning.',
                 cover: 'assets/images/team/fidan.jpg'
             },
             {
-                id: 11,
+                id: 10,
                 name: 'Orkhan Mammadov',
                 position: 'Researcher',
                 info: 'Orkhan joined the eiLink team while doing his Ph.D. at the China University of Petroleum (Beijing) with a major in Geological Reservoir Development. His M.Eng. research at CUPB covered 3D reservoir modelling and characterization of an unconventional reservoir. He has worked in a variety of geoscience-related fields, but his primary focus at eiLink is on solving industrial problems with Python, Data Analysis, and Machine Learning. ',
