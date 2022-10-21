@@ -155,22 +155,22 @@ export class InMemoryDataService implements InMemoryDbService {
         let careers = [
             {
                 id: 0,
-                name: 'Computational Geophysicist | WAVERITY',
+                name: 'Junior Data Scientist',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2063/CHWZG24AES9N9RKYY2'
+                link: 'https://forms.clickup.com/31136212/f/xp6em-2203/WC4TOGVZLPORSGZCR7'
             },
             {
                 id: 1,
-                name: 'Applied Geophysicist | WAVERITY',
+                name: 'Graduate Petroleum Engineer',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2043/Q76I6XXGNLR85331PB'
+                link: 'https://forms.clickup.com/31136212/f/xp6em-2223/WEMFF72L67VTX7UFCK'
             },
             {
                 id: 2,
-                name: 'Geophysicist (Interpreter) | WAVERITY',
+                name: 'Angular Developer',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2103/2ZSD4244VIBM9LPBZK'
-            },
+                link: 'https://forms.clickup.com/31136212/f/xp6em-2163/XYZZR21MS4DHOEUMW9'
+            }/* 
             {
                 id: 3,
                 name: 'Signal Processing Engineer | WAVERITY',
@@ -194,7 +194,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 name: 'Well Planner | WAVERITY',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2003/OP7Y138ZTQFFEVIB51'
-            }
+            } */
         ];
 
         let team = [
