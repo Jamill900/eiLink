@@ -67,7 +67,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 id: 4,
                 author: 'eiLink',
                 cover: 'assets/images/projects/project7.jpg',
-                header: 'assets/images/projects/project7header.png',
+                header: 'assets/images/projects/project7header.jpg',
                 date: '28 June 2021',
                 title: 'Pre-Stack Seismic inversion based on Continuous Wavelet Transform Processing and Deep Neural Network',
                 description: 'The main purpose of this study was to develop a methodology to generate a 3D volume of Gamma Ray data for Azeri and Chirag with a resolution approaching the real GR tool readings. To optimize the proposed approach, sensitivity analyses were performed on the Convolutional Neural Network (CNN) architecture (configuration) and on the parameters of the Continuous Wavelet Transform (CWT) operation applied to seismic reflectivity traces. Before final implementation, the quality of the GR predictions was verified at all wells by using the k-fold cross validation principle on the whole database. The novelty of the proposed method was using the pre-stack seismic data in the context of regression within functional CNN, accounting for the specific parametrization.\n\n The proposed methodology used 132 deviated wells from the Azeri and Chirag parts of the Azeri – Chirag – Gunashli field in the South Caspian Basin as training data. Blind tests show promising Gamma Ray predictions.\n\n The predicted GR cube could be used to determine the optimal well placement and more accurate reservoir modeling.',
