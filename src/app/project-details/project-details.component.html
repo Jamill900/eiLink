@@ -9,7 +9,7 @@
             </div>
             <div class="section-break"></div>
             <div class="container project-caption" id="all"
-                *ngIf="project.id != 1 && project.id != 2 && project.id != 3">
+                *ngIf="project.id != 1 && project.id != 2 && project.id != 3 && project.id != 4">
                 <div class="tags">
                     <span *ngIf="project.industry">{{ project.industry }}</span>
                     <span *ngIf="project.service">{{ project.service }}</span>
@@ -18,8 +18,10 @@
                     <p>{{ project.description }}</p>
                 </div>
                 <div *ngIf="project.image" class=" container project-images">
-                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="{{ project.image }}" alt="" width="100%">
-                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="{{ project.photo }}" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="{{ project.image }}" alt=""
+                        width="100%">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="{{ project.photo }}" alt=""
+                        width="100%">
                 </div>
                 <div class="break"></div>
                 <div class="details">
@@ -55,12 +57,13 @@
                         an economically viable field development plan.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/image6.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/image6.jpg"
+                        alt="" width="100%">
                     <p><br><br>
                         In the scenarios mentioned above, outcrop analog studies may help significantly enhance the
                         subsurface understanding and help build a successful field development strategy. They can serve
                         as a starting point toward characterization of reservoirs without spending much money on
-                        expensive data acquisition and surveillance. 
+                        expensive data acquisition and surveillance.
                         <br><br>
                         In the Deep Water Gunashli (DWG) oil field, the complex, steeply dipping northern limb of the
                         structure has historically been underdeveloped due to the presence of severe reservoir
@@ -69,9 +72,11 @@
                         campaign was the Yasamal Analogue Outcrop Study done by the eiLink Team.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/image3.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/image3.jpg"
+                        alt="" width="100%">
                     <br><br><br>
-                    <img [ngClass]="{'popup' : isActive[2]}" (click)="popup(2)" src="assets/images/projects/image4a.jpg" alt="" width="320px">
+                    <img [ngClass]="{'popup' : isActive[2]}" (click)="popup(2)" src="assets/images/projects/image4a.jpg"
+                        alt="" width="320px">
                     <br>
                     <br>
                     <p>The objective of the outcrop study during the first phase of the project was to acquire abundant
@@ -90,9 +95,11 @@
                         acquisition tool.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[3]}" (click)="popup(3)" src="assets/images/projects/image4b.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[3]}" (click)="popup(3)" src="assets/images/projects/image4b.jpg"
+                        alt="" width="100%">
                     <br><br><br>
-                    <img [ngClass]="{'popup' : isActive[4]}" (click)="popup(4)" src="assets/images/projects/image8.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[4]}" (click)="popup(4)" src="assets/images/projects/image8.jpg"
+                        alt="" width="100%">
                     <br><br>
                     <p>Then, during the second phase of the project, the focus was to QC the acquired data and use it to
                         come up with an essential geological analysis. The main objective was to observe what controls
@@ -108,7 +115,8 @@
                         due to tools reading inadequate information.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[5]}" (click)="popup(5)" src="assets/images/projects/image5.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[5]}" (click)="popup(5)" src="assets/images/projects/image5.jpg"
+                        alt="" width="100%">
                     <br><br>
                     <p>The impact of this project was that vital geological insights and conclusions were drawn and used
                         for the future reservoir characterization of the steeply dipping North Limb of the DWG
@@ -150,13 +158,15 @@
                         which was the main target area during the study.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project5photo.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)"
+                        src="assets/images/projects/project5photo.jpg" alt="" width="100%">
                     <br><br>
                     <p>Quantifying the impact of deformed rocks is very significant in estimating overall sweep
                         efficiency as well as interpreting dynamic parameter behaviour.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/project5image.jpg" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)"
+                        src="assets/images/projects/project5image.jpg" alt="" width="100%">
                     <br><br>
                 </div>
                 <div class="break"></div>
@@ -191,7 +201,8 @@
                         data from several exploration wells available near the target area.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)" src="assets/images/projects/project3photo.png" alt="" width="100%">
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)"
+                        src="assets/images/projects/project3photo.png" alt="" width="100%">
                     <br><br>
                     <p>Significant water reserves have been found in depths below 300 meters. The water due to the
                         geological setting is considered saline and unconfined, so the new well drilling, water
@@ -208,7 +219,106 @@
                         water management map has been created.
                         <br><br>
                     </p>
-                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)" src="assets/images/projects/project3image.png" alt="">
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)"
+                        src="assets/images/projects/project3image.png" alt="">
+                    <br><br>
+                </div>
+                <div class="break"></div>
+                <div class="details">
+                    <div class="author">
+                        <h6>Author</h6>
+                        <span>{{ project.author }}</span>
+                    </div>
+                    <div class="date">
+                        <h6>Date</h6>
+                        <span>{{ project.date }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container project-caption" *ngIf="project.id == 4">
+                <div class="tags">
+                    <span *ngIf="project.industry">{{ project.industry }}</span>
+                    <span *ngIf="project.service">{{ project.service }}</span>
+                </div>
+                <div class="info">
+                    <p>Seismic inversion is one of the critical issues for geophysicists in the oil and gas industry. It
+                        is commonly used to estimate the distribution of facies-types and fluids in reservoirs.The
+                        importance of this operation is that it is actively used in a chain from exploration to
+                        development to reduce drilling uncertainty and enhance hydrocarbon recoveries. Also, it is
+                        valuable for well placement and production prediction. However, a large number of uncertainties
+                        make direct use of inversion results challenging.
+                        <br><br>
+                        We at Waverity conducted a study to predict 3D volume of Gamma Ray data from pre-stack seismic
+                        reflectivity partial angle stacks based on the Convolutional Neural Network architecture by
+                        representing data through the Continuous Wavelet Transform.
+                        <br><br>
+                    </p>
+                    <img [ngClass]="{'popup' : isActive[0]}" (click)="popup(0)"
+                        src="assets/images/projects/project4-1.jpg" alt="" width="100%">
+                    <p><br><br>
+                        Our methodology used 132 deviated wells from the Azeri and Chirag parts of the Azeri – Chirag –
+                        Gunashli field in the South Caspian Basin as training data.
+                        <br><br>
+                    </p>
+                    <img [ngClass]="{'popup' : isActive[1]}" (click)="popup(1)"
+                        src="assets/images/projects/project4-2.jpg" alt="" width="300px">
+                    <p class="text-center m-auto image-captions">
+                        <br>
+                        The map of Azeri and Chirag fields of ACG in the South
+                        Caspian Basin and zones of predicted GR volumes (squared areas).
+
+                    </p>
+                    <p><br>
+                        The database included pre-stack seismic reflectivity data from the field at a limited vertical
+                        resolution ca. 20 meters and 132 wells with various levels of deviation.
+                        <br><br>
+                    </p>
+                    <img [ngClass]="{'popup' : isActive[2]}" (click)="popup(2)"
+                        src="assets/images/projects/project4-3.jpg" alt="" width="100%" style="max-width: 500px;">
+                    <p><br><br>
+
+                        To deal with high well deviation it was proposed the concept of representative seismic trace
+                        (RST). The RST is a trace that passes through the location of the log point and is created by a
+                        weighted average of seismic traces that are located in the circle with a radius of 6.25 m and
+                        centered in the log point coordinates.
+                        <br><br>
+                    </p>
+                    <img [ngClass]="{'popup' : isActive[5]}" (click)="popup(5)"
+                        src="assets/images/projects/project4-4.jpg" alt="" width="100%">
+                    <p class="text-center m-auto image-captions">
+                        <br>
+                        Representative Seismic Traces for one GR point (three left graphs), the CWT decomposition of
+                        each RST (three middle graphs), final cropped samples of SNSV, SMSV and SFSV for one log point
+                        (three right graphs).
+                    </p>
+                    <br><br>
+                    <img [ngClass]="{'popup' : isActive[3]}" (click)="popup(3)"
+                        src="assets/images/projects/project4-5.jpg" alt="" width="100%">
+                    <p class="text-center m-auto image-captions">
+                        <br>
+                        Comparison between real and predicted (blind verification) Gamma Ray log for some wells from the
+                        Chirag field. The black line and red line show the real and predicted GR log, respectively.
+                    </p>
+                    <p><br><br>
+
+                        One of the benchmarks of the methodology in testing on blind wells that showed promising Gamma
+                        Ray predictions. The proposed methodology exhibited the capacity to accurately predict Gamma Ray
+                        across the fields, and eventually the methodology was deployed on the whole project field to
+                        predict 3D GR cube. The results have the potential for use in well placement optimization and
+                        reservoir modeling. We at WAVERITY plan to test this methodology for prediction of other
+                        physical rock properties (bulk density, true resistivity, compressional velocity, etc.)
+                        separately or by feeding the network with several well logging data types, along with seismic,
+                        to tie the seismic with aforementioned properties more accurately.
+
+                        <br><br>
+                    </p>
+                    <img [ngClass]="{'popup' : isActive[4]}" (click)="popup(4)"
+                        src="assets/images/projects/project4-6.jpg" alt="" width="100%">
+                    <p class="text-center m-auto image-captions">
+                        <br>
+                        Side view of predicted GR for the entire seismic volume of the Chirag field.
+                        The colorbar covers a range of GR values.
+                    </p>
                     <br><br>
                 </div>
                 <div class="break"></div>
