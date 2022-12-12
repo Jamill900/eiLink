@@ -170,13 +170,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 name: 'Junior Applied Scientist on Image Processing',
                 location: 'Baku, Azerbaijan',
                 link: 'https://forms.clickup.com/31136212/f/xp6em-2363/I0ARXOVYB09LBDFIAM'
-            },
-            {
-                id: 3,
-                name: 'UX/UI Designer (Contractual)',
-                location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2403/4OVVJMVLNU4U57W4KF'
-            },/*
+            }/*
             {
                 id: 5,
                 name: 'Applied Geologist | WAVERITY',
@@ -268,6 +262,20 @@ export class InMemoryDataService implements InMemoryDbService {
                 position: 'Researcher',
                 info: 'Orkhan joined the eiLink team while doing his Ph.D. at the China University of Petroleum (Beijing) with a major in Geological Reservoir Development. His M.Eng. research at CUPB covered 3D reservoir modelling and characterization of an unconventional reservoir. He has worked in a variety of geoscience-related fields, but his primary focus at eiLink is on solving industrial problems with Python, Data Analysis, and Machine Learning. ',
                 cover: 'assets/images/team/orkhan.jpg'
+            },
+            {
+                id: 11,
+                name: 'Javidan Karimli',
+                position: 'Junior Researcher',
+                info: 'Javidan earned his Bachelor’s degree from the UFAZ and the University of Strasbourg, and obtained Master’s degree in Petroleum Geosciences - Geophysics from the IFP School. Particularly here, Javidan works on Geophysical Interpretations in WAVERITY team.',
+                cover: 'assets/images/team/javidan-2.jpg'
+            },
+            {
+                id: 12,
+                name: 'Kamran Mirzabeyli',
+                position: 'Senior Developer',
+                info: 'Kamran is a petroleum engineer with 7 years of experience concentrated on well management, system optimisation, well integrity, and surveillance. Kamran graduated with a bachelor’s degree in Petroleum & Reservoir Engineering from the Azerbaijan State Oil Academy, the current ASOIU.',
+                cover: 'assets/images/team/kamran.jpg'
             }
         ]
 
