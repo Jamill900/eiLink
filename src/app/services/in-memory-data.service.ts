@@ -215,6 +215,13 @@ export class InMemoryDataService implements InMemoryDbService {
                 cover: 'assets/images/team/vafa.jpg'
             },
             {
+                id: 12,
+                name: 'Kamran Mirzabeyli',
+                position: 'Researcher',
+                info: 'Kamran is a petroleum engineer with 7 years of experience concentrated on well management, system optimisation, well integrity, and surveillance. Kamran graduated with a bachelor’s degree in Petroleum & Reservoir Engineering from the Azerbaijan State Oil Academy, the current ASOIU.',
+                cover: 'assets/images/team/kamran.jpg'
+            },
+            {
                 id: 4,
                 name: 'Ruslan Malikov',
                 position: 'Junior Researcher',
@@ -250,20 +257,6 @@ export class InMemoryDataService implements InMemoryDbService {
                 cover: 'assets/images/team/tatyana.jpg'
             },
             {
-                id: 9,
-                name: 'Fidan Karimova',
-                position: 'Research Assistant',
-                info: 'Fidan graduated with a bachelor’s degree in Computer Science from French-Azerbaijani University. She started her professional experience as a research assistant at eiLink while she was still a student. Her research areas focus mainly on Data Analysis, Remote Sensing, and Machine Learning.',
-                cover: 'assets/images/team/fidan.jpg'
-            },
-            {
-                id: 10,
-                name: 'Orkhan Mammadov',
-                position: 'Researcher',
-                info: 'Orkhan joined the eiLink team while doing his Ph.D. at the China University of Petroleum (Beijing) with a major in Geological Reservoir Development. His M.Eng. research at CUPB covered 3D reservoir modelling and characterization of an unconventional reservoir. He has worked in a variety of geoscience-related fields, but his primary focus at eiLink is on solving industrial problems with Python, Data Analysis, and Machine Learning. ',
-                cover: 'assets/images/team/orkhan.jpg'
-            },
-            {
                 id: 11,
                 name: 'Javidan Karimli',
                 position: 'Junior Researcher',
@@ -271,12 +264,19 @@ export class InMemoryDataService implements InMemoryDbService {
                 cover: 'assets/images/team/javidan-2.jpg'
             },
             {
-                id: 12,
-                name: 'Kamran Mirzabeyli',
-                position: 'Researcher',
-                info: 'Kamran is a petroleum engineer with 7 years of experience concentrated on well management, system optimisation, well integrity, and surveillance. Kamran graduated with a bachelor’s degree in Petroleum & Reservoir Engineering from the Azerbaijan State Oil Academy, the current ASOIU.',
-                cover: 'assets/images/team/kamran.jpg'
-            }
+                id: 10,
+                name: 'Orkhan Mammadov',
+                position: 'Junior Researcher',
+                info: 'Orkhan joined the eiLink team while doing his Ph.D. at the China University of Petroleum (Beijing) with a major in Geological Reservoir Development. His M.Eng. research at CUPB covered 3D reservoir modelling and characterization of an unconventional reservoir. He has worked in a variety of geoscience-related fields, but his primary focus at eiLink is on solving industrial problems with Python, Data Analysis, and Machine Learning. ',
+                cover: 'assets/images/team/orkhan.jpg'
+            },
+            {
+                id: 9,
+                name: 'Fidan Karimova',
+                position: 'Research Assistant',
+                info: 'Fidan graduated with a bachelor’s degree in Computer Science from French-Azerbaijani University. She started her professional experience as a research assistant at eiLink while she was still a student. Her research areas focus mainly on Data Analysis, Remote Sensing, and Machine Learning.',
+                cover: 'assets/images/team/fidan.jpg'
+            },
         ]
 
         return { projects, publications, careers, team };
