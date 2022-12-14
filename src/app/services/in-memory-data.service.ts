@@ -273,7 +273,7 @@ export class InMemoryDataService implements InMemoryDbService {
             {
                 id: 12,
                 name: 'Kamran Mirzabeyli',
-                position: 'Senior Developer',
+                position: 'Researcher',
                 info: 'Kamran is a petroleum engineer with 7 years of experience concentrated on well management, system optimisation, well integrity, and surveillance. Kamran graduated with a bachelor’s degree in Petroleum & Reservoir Engineering from the Azerbaijan State Oil Academy, the current ASOIU.',
                 cover: 'assets/images/team/kamran.jpg'
             }
