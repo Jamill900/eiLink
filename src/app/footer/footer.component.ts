@@ -27,4 +27,7 @@ export class FooterComponent implements OnInit {
     this.modalService.open(content, {size: 'lg' });
   }
 
+  navigateTo(url: string) {
+    window.open(url, 'target: _blank');
+  }
 }

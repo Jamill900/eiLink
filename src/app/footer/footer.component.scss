@@ -24,6 +24,16 @@ a {
     cursor: pointer;
 }
 
+svg {
+  fill: #fff;
+  transition: all .2s linear;
+}
+
+svg:hover {
+  fill: #F58C83 !important;
+}
+
+
 .border-shape {
     background: var(--dark);
     color: #fff;
