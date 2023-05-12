@@ -155,34 +155,34 @@ export class InMemoryDataService implements InMemoryDbService {
         let careers = [
             {
                 id: 0,
-                name: 'Junior Data Scientist',
+                name: 'Drilling Engineer',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2203/WC4TOGVZLPORSGZCR7'
+                link: 'https://forms.clickup.com/31136212/f/xp6em-3003/JBE176JGLPJ4UK6UEX'
             },
             {
                 id: 1,
-                name: 'Graduate Petroleum Engineer',
+                name: 'Wellsite Geologist',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2223/WEMFF72L67VTX7UFCK'
+                link: 'https://forms.clickup.com/31136212/f/xp6em-3043/L072IVQSS16V1B58H4'
             },
             {
                 id: 2,
-                name: 'Junior Applied Scientist on Image Processing',
+                name: 'Petroleum Engineer',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2363/I0ARXOVYB09LBDFIAM'
-            }/*
+                link: 'https://forms.clickup.com/31136212/f/xp6em-2863/M8WC08KR0HPR49UQ5E'
+            },
             {
                 id: 5,
-                name: 'Applied Geologist | WAVERITY',
+                name: 'Petrophysicist',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-1983/7SXHYOXA3LNHX0UC2D'
+                link: 'https://forms.clickup.com/31136212/f/xp6em-2883/O9KXN3GWO67I45E5CG'
             },
             {
                 id: 6,
-                name: 'Well Planner | WAVERITY',
+                name: 'Geomechanics Specialis',
                 location: 'Baku, Azerbaijan',
-                link: 'https://forms.clickup.com/31136212/f/xp6em-2003/OP7Y138ZTQFFEVIB51'
-            } */
+                link: 'https://forms.clickup.com/31136212/f/xp6em-2903/VQ12W6Z5X25MJJL6OZ'
+            }
         ];
 
         let team = [
