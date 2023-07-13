@@ -231,7 +231,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 6,
         name: 'Ruslan Malikov',
-        position: 'Junior Researcher',
+        position: 'Researcher',
         info: 'Ruslan graduated with a bachelor’s degree in Geophysical Engineering from French-Azerbaijan University. He started his journey with eiLink while being a student as a research assistant. After a lot of hard work, dedication, and time of growth, he became a junior researcher at eiLink. His research areas include Seismic Inversion and Processing, Signal Processing, Data Analysis, Software Development, and the application of Machine Learning.',
         cover: 'assets/images/team/ruslan.jpg'
       },
